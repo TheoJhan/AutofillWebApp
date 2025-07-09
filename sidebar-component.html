@@ -1,0 +1,35 @@
+<!-- Centralized Sidebar Component -->
+<aside class="sidebar">
+    <div class="sidebar-header">
+        <img src="icons/CB-ph-48.png" alt="CB-PH Logo" class="logo">
+        <span>CB-PH Advance Autofill</span>
+    </div>
+    <nav class="sidebar-nav">
+        <h3>Navigation</h3>
+        <ul>
+            <li class="nav-item" data-page="dashboard"><a href="dashboard.html"><img src="icons/dashboard.svg" alt=""> Dashboard</a></li>
+            <li class="nav-item" data-page="campaign-data"><a href="campaign-data.html"><img src="icons/campaign.svg" alt=""> Campaign Data</a></li>
+            <li class="nav-item" data-page="plan"><a href="plan.html"><img src="icons/plan.svg" alt=""> Plan</a></li>
+            <li class="nav-item" data-page="settings"><a href="settings.html"><img src="icons/settings.svg" alt=""> Settings</a></li>
+                                <li class="nav-item" data-page="profile"><a href="profile.html"><img src="icons/profile.svg" alt=""> Profile</a></li>
+                    <li class="nav-item admin-only" data-page="admin" style="display: none;"><a href="admin.html"><img src="icons/settings.svg" alt=""> Admin</a></li>
+        </ul>
+    </nav>
+    <div class="sidebar-footer">
+        <div class="user-profile" id="user-profile-button">
+            <img src="icons/user-avatar.svg" alt="User Avatar">
+            <div class="user-info">
+                <h4 id="user-display-name">User</h4>
+                <p id="user-email">user@example.com</p>
+            </div>
+            <img src="icons/chevron-down.svg" alt="More" class="chevron">
+        </div>
+        <div class="profile-popup" id="profile-popup">
+            <ul>
+                <li><a href="profile.html"><img src="icons/profile.svg" alt=""> Profile</a></li>
+                <li><a href="settings.html"><img src="icons/settings.svg" alt=""> Settings</a></li>
+                <li><a href="#" id="logout-btn"><img src="icons/logout.svg" alt=""> Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</aside> 

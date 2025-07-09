@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaign Dashboard - CBAA</title>
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dashboard-page-body">
+    <div class="dashboard-container" style="display: flex; min-height: 100vh;">
+        <!-- Sidebar -->
+        <div class="sidebar-container">
+            <!-- Sidebar HTML will be loaded here -->
+        </div>
+        <!-- Main Dashboard Content -->
+        <main class="main-content">
+            <header class="main-header">
+                <div class="breadcrumbs">
+                    <a href="dashboard.html">CB-PHAA</a>
+                    <img src="icons/chevron-right.svg" alt=">" class="breadcrumb-separator">
+                    <span>Dashboard</span>
+                </div>
+            
+            
+                <div class="header-actions">
+                    <div class="save-indicator" id="saveIndicator" style="display: none;">
+                        <img src="icons/check-circle.svg" alt="✓" class="check-icon">
+                        <span id="lastSavedId">ID: </span>
+                    </div>
+                    <button class="btn btn-secondary" id="update-citations-btn">Update</button>
+                    <button class="btn btn-primary" id="add-new-citation-btn">Add New Citation</button>
+                </div>
+            </header>
+
+            <!-- Summary Cards -->
+            <section class="summary-cards">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-info">
+                            <p>Total Citations</p>
+                            <h2 id="total-citations-count">0</h2>
+                            <span>Total number of Citation</span>
+                        </div>
+                        <div class="card-icon">
+                            <img src="icons/copy.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-info">
+                            <p>Worked Citation</p>
+                            <h2 id="worked-citations-count">0</h2>
+                            <span>Citations not in To do</span>
+                        </div>
+                        <div class="card-icon icon-success">
+                            <img src="icons/check-circle.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-info">
+                            <p>Average Score</p>
+                            <h2>78</h2>
+                            <span>Overall performance</span>
+                        </div>
+                        <div class="card-icon">
+                            <img src="icons/chart-bar.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-info">
+                            <p>Needs Attention</p>
+                            <h2 class="text-danger" id="needs-attention-count">0</h2>
+                            <span>Require updates</span>
+                        </div>
+                        <div class="card-icon icon-danger">
+                            <img src="icons/alert-triangle.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Data Table Section -->
+            <section class="data-table-section">
+                <div class="table-controls">
+                    <div class="search-bar">
+                        <img src="icons/search.svg" alt="">
+                        <input type="text" id="search-input" placeholder="Search by site or status...">
+                    </div>
+                    <div class="filter-wrapper">
+                        <button class="btn btn-secondary filter-btn" id="filter-btn">
+                            <img src="icons/filter.svg" alt=""> Filter: <span id="current-filter">All</span>
+                            <img src="icons/chevron-down.svg" alt="">
+                        </button>
+                        <div class="filter-dropdown" id="filter-dropdown">
+                            <!-- Filter options will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    <div class="bulk-actions-wrapper">
+                        <button class="btn btn-secondary bulk-actions-btn" id="bulk-actions-btn" disabled>
+                            Bulk Actions (0) <img src="icons/chevron-down.svg" alt="">
+                        </button>
+                        <div class="bulk-actions-dropdown" id="bulk-actions-dropdown">
+                            <a href="#" id="analyze-selected">Analyze Selected</a>
+                            <a href="#" id="redirect-selected">Redirect Selected</a>
+                            <a href="#" id="clear-selection">Clear Selection</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="data-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox" id="selectAllCheckbox"></th>
+                                <th>Site/Directory</th>
+                                <th>Main Category</th>
+                                <th>Subcategory</th>
+                                <th>Status</th>
+                                <th>Score</th>
+                                <th>URL</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Table rows will be populated here -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-footer">
+                    <p>Showing 8 of 8 citations</p>
+                    <div class="pagination">
+                        <button class="btn btn-secondary" id="export-citations-btn">Export</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Add New Citation Modal -->
+    <div id="add-citation-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Add New Citation</h2>
+                <button class="modal-close" id="close-modal">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <div class="modal-filters">
+                    <div class="filter-group">
+                        <label for="search-filter">🔍 Search</label>
+                        <input type="text" id="search-filter" class="filter-input" placeholder="Search citations, domain authority, location, business type...">
+                    </div>
+                    <div class="filter-group">
+                        <label for="type-filter">📋 Citation Type</label>
+                        <select id="type-filter" class="filter-select">
+                            <option value="all">All Types</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="enabled-filter">✅ Status</label>
+                        <select id="enabled-filter" class="filter-select">
+                            <option value="Y,B">All Status</option>
+                            <option value="Y">Active Only</option>
+                            <option value="B">Backup Only</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="citations-list" id="citations-list">
+                    <p>Total Results: 0</p>
+                </div>
+            </div>
+            
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="cancel-add">Cancel</button>
+                <button class="btn btn-primary" id="add-selected">Add Selected</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Note Modal -->
+    <div id="note-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Citation Note</h2>
+                <button class="modal-close" id="close-note-modal">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <div class="note-form">
+                    <div class="form-group">
+                        <label for="note-site">Site/Directory</label>
+                        <input type="text" id="note-site" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="note-content">Note</label>
+                        <textarea id="note-content" rows="6" placeholder="Enter your note for this citation..."></textarea>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="cancel-note">Cancel</button>
+                <button class="btn btn-primary" id="submit-note">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Update Overlay Panel -->
+    <div id="update-overlay" style="display:none;">
+      <div class="update-overlay-content">
+        <div class="update-spinner"></div>
+        <div class="update-message">Updating, please wait...</div>
+        <div class="update-progress-bar-container">
+          <div class="update-progress-bar" id="update-progress-bar"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+    // Dynamically load the sidebar HTML for consistency
+    fetch('sidebar-component.html')
+      .then(res => res.text())
+      .then(html => {
+        document.querySelector('.sidebar-container').innerHTML = html;
+        // Highlight the Dashboard nav item
+        document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
+        const dashboardNav = document.querySelector('.nav-item[data-page="dashboard"]');
+        if (dashboardNav) dashboardNav.classList.add('active');
+        if (window.updateUserInfo) window.updateUserInfo();
+      });
+    </script>
+    <script type="module" src="sidebar-centralized.js"></script>
+    <script type="module" src="dashboard.js"></script>
+</body>
+</html> 

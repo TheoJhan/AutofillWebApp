@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBAA - Plan</title>
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="plan.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dashboard-page-body">
+    <div class="dashboard-container" style="display: flex; min-height: 100vh;">
+        <!-- Sidebar -->
+        <div class="sidebar-container">
+            <!-- Sidebar HTML will be loaded here -->
+        </div>
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="main-header">
+                <div class="breadcrumbs">
+                    <a href="dashboard.html">CB-PHAA</a>
+                    <img src="icons/chevron-right.svg" alt=">" class="breadcrumb-separator">
+                    <span>Plan</span>
+                </div>
+            </header>
+            <section class="plan-overview">
+                <div class="current-plan">
+                    <div class="plan-header">
+                        <h2><img src="icons/plan.svg" alt=""> Current Plan:</h2>
+                        <span class="popular-badge">Popular</span>
+                    </div>
+                    <p class="billing-info">Next billing: 2024-02-15 • $30/month</p>
+                    <div class="citations-used">
+                        <div class="citations-header">
+                            <span>Citations Used</span>
+                            <span>847 / 1200</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70.58%;"></div>
+                        </div>
+                    </div>
+                    <div class="plan-stats">
+                        <div class="stat">
+                            <span class="stat-value">847</span>
+                            <span class="stat-label">Used This Month</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">353</span>
+                            <span class="stat-label">Remaining</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">71%</span>
+                            <span class="stat-label">Usage</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="plan-selection">
+                <div class="plan-tabs">
+                    <button class="tab-btn active">Available Plans</button>
+                    <button class="tab-btn">Billing History</button>
+                    <button class="tab-btn">Payment Method</button>
+                </div>
+                <div class="plan-cards">
+                    <div class="plan-card">
+                        <img src="icons/profile.svg" alt="" class="plan-icon">
+                        <h3>Starter</h3>
+                        <p class="price"><span>$20</span> per month</p>
+                        <p class="citations">1000 Citations</p>
+                        <ul class="features">
+                            <li><img src="icons/check-circle.svg" alt=""> 1000 Citations per month</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Basic form autofill</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Email support</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Standard templates</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Data export (CSV)</li>
+                        </ul>
+                        <button class="btn btn-downgrade">Downgrade</button>
+                    </div>
+                    <div class="plan-card professional current">
+                        <div class="most-popular-badge">Most Popular</div>
+                        <div class="current-plan-label">Current Plan</div>
+                        <img src="icons/plan.svg" alt="" class="plan-icon">
+                        <h3>Professional</h3>
+                        <p class="price"><span>$30</span> per month</p>
+                        <p class="citations">1,700 Citations</p>
+                        <ul class="features">
+                            <li><img src="icons/check-circle.svg" alt=""> 1,700 Citations per month</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Advanced form autofill</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Priority email support</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Custom templates</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Data export (CSV, JSON)</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Analytics dashboard</li>
+                        </ul>
+                        <button class="btn btn-current">Current Plan</button>
+                    </div>
+                    <div class="plan-card business">
+                         <img src="icons/chart-bar.svg" alt="" class="plan-icon">
+                        <h3>Business</h3>
+                        <p class="price"><span>$50</span> per month</p>
+                        <p class="citations">3,000 Citations</p>
+                        <ul class="features">
+                            <li><img src="icons/check-circle.svg" alt=""> 3,000 Citations per month</li>
+                            <li><img src="icons/check-circle.svg" alt=""> AI-powered autofill</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Phone & email support</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Unlimited templates</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Advanced analytics</li>
+                            <li><img src="icons/check-circle.svg" alt=""> API access</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Team collaboration</li>
+                        </ul>
+                        <button class="btn btn-upgrade">Upgrade</button>
+                    </div>
+                    <div class="plan-card">
+                        <img src="icons/campaign.svg" alt="" class="plan-icon">
+                        <h3>Enterprise</h3>
+                        <p class="price"><span>$100</span> per month</p>
+                        <p class="citations">Unlimited Citations</p>
+                        <ul class="features">
+                            <li><img src="icons/check-circle.svg" alt=""> Unlimited Citations</li>
+                            <li><img src="icons/check-circle.svg" alt=""> White-label solution</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Dedicated account manager</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Custom integrations</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Advanced security</li>
+                            <li><img src="icons/check-circle.svg" alt=""> SLA guarantee</li>
+                            <li><img src="icons/check-circle.svg" alt=""> Training & onboarding</li>
+                        </ul>
+                        <button class="btn btn-upgrade">Upgrade</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="plan-comparison">
+                <h2>Plan Comparison</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Starter</th>
+                            <th>Professional</th>
+                            <th>Business</th>
+                            <th>Enterprise</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monthly Citations</td>
+                            <td>1000</td>
+                            <td>1,700</td>
+                            <td>3,000</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Form Autofill</td>
+                            <td><img src="icons/check-circle.svg" alt="check"></td>
+                            <td><img src="icons/check-circle.svg" alt="check"></td>
+                            <td><img src="icons/check-circle.svg" alt="check"></td>
+                            <td><img src="icons/check-circle.svg" alt="check"></td>
+                        </tr>
+                        <tr>
+                            <td>Analytics Dashboard</td>
+                            <td>—</td>
+                            <td><img src="icons/check-circle.svg" alt="check"></td>
+                            <td><img src="icons/check-circle.svg" alt="check"></td>
+                            <td><img src="icons/check-circle.svg" alt="check"></td>
+                        </tr>
+                        <tr>
+                            <td>API Access</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td><img src="icons/check-circle.svg" alt="check"></td>
+                            <td><img src="icons/check-circle.svg" alt="check"></td>
+                        </tr>
+                        <tr>
+                            <td>Dedicated Support</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td><img src="icons/check-circle.svg" alt="check"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <script>
+    // Dynamically load the sidebar HTML for consistency
+    fetch('sidebar-component.html')
+      .then(res => res.text())
+      .then(html => {
+        document.querySelector('.sidebar-container').innerHTML = html;
+        // Highlight the Plan nav item
+        document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
+        const planNav = document.querySelector('.nav-item[data-page="plan"]');
+        if (planNav) planNav.classList.add('active');
+        if (window.updateUserInfo) window.updateUserInfo();
+      });
+    </script>
+    <script type="module" src="sidebar-centralized.js"></script>
+    <script type="module" src="plan.js"></script>
+</body>
+</html> 

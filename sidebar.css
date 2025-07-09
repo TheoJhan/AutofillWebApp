@@ -1,0 +1,182 @@
+:root {
+    --sidebar-bg: #FFFFFF;
+    --text-primary: #212529;
+    --text-secondary: #6c757d;
+    --primary-color: #4A4DE6;
+    --border-color: #E9ECEF;
+    --card-bg: #FFFFFF;
+    --hover-bg-color: #F0F0FF;
+    --profile-hover-bg: #f8f9fa;
+}
+
+[data-theme='dark'] {
+    --sidebar-bg: #1E1E1E;
+    --text-primary: #E0E0E0;
+    --text-secondary: #A0A0A0;
+    --border-color: #2c2c2c;
+    --card-bg: #1E1E1E;
+    --hover-bg-color: #2a2a4d;
+    --profile-hover-bg: #2a2a2a;
+}
+
+.sidebar {
+    width: 260px;
+    background-color: var(--sidebar-bg);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--border-color);
+    position: fixed;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.sidebar-header .logo {
+    width: 32px;
+    height: 32px;
+}
+
+.sidebar-header span {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.sidebar-nav {
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.sidebar-nav h3, .sidebar-nav .nav-title {
+    font-size: 12px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav li a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.sidebar-nav li.active a, .sidebar-nav li a:hover {
+    background-color: var(--hover-bg-color);
+    color: var(--primary-color);
+}
+
+.sidebar-nav li a img {
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar-footer {
+    padding: 20px;
+    border-top: 1px solid var(--border-color);
+    position: relative;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-profile .user-info h4, .user-profile .user-details .user-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.user-profile .user-info p, .user-profile .user-details .user-email {
+    margin: 0;
+    font-size: 12px;
+    color: var(--text-secondary);
+    max-width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+.user-profile .chevron, .user-profile .chevron-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+}
+
+.profile-popup {
+    position: absolute;
+    bottom: 80px;
+    left: 15px;
+    right: 15px;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    z-index: 1000;
+    padding: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+}
+
+.profile-popup.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.profile-popup ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-popup li a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.profile-popup li a:hover {
+    background-color: var(--profile-hover-bg);
+}
+
+.profile-popup li a img {
+    width: 20px;
+    height: 20px;
+} 
