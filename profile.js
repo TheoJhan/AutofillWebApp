@@ -1,5 +1,10 @@
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
-import { getAuth, updateProfile, updatePassword, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
+import { initializeApp } from 'firebase/app';
+import { 
+  getAuth, 
+  updateProfile, 
+  updatePassword, 
+  onAuthStateChanged 
+} from 'firebase/auth';
 
 const firebaseConfig = {
     apiKey: "AIzaSyBZwNTgvurQB2XZTdG0hXEhH9nhHEsSyiY",

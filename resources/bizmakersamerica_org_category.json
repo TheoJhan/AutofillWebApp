@@ -1,0 +1,738 @@
+[
+  {
+    "Main Category": "Agriculture & Mining",
+    "Sub Category": "Agriculture & Mining Other"
+  },
+  {
+    "Main Category": "Agriculture & Mining",
+    "Sub Category": "Farming and Ranching"
+  },
+  {
+    "Main Category": "Agriculture & Mining",
+    "Sub Category": "Fishing Hunting and Trapping"
+  },
+  {
+    "Main Category": "Agriculture & Mining",
+    "Sub Category": "Forestry and Logging"
+  },
+  {
+    "Main Category": "Agriculture & Mining",
+    "Sub Category": "Mining and Quarrying"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Accounting and Tax Preparation"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Advertising Marketing and PR"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Agriculture & Mining Other"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Business Services Other"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Computers & Electronics Other"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Consumer Services Other"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Data and Records Management"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Facilities Management and Maintenance"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Farming and Ranching"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Fishing Hunting and Trapping"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Forestry and Logging"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "HR and Recruiting Services"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Insurance and Risk Management"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Legal Services"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Management Consulting"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Payroll Services"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Peripherals Manufacturing"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Sales Services"
+  },
+  {
+    "Main Category": "Business Services",
+    "Sub Category": "Security Services"
+  },
+  {
+    "Main Category": "Computers & Electronics",
+    "Sub Category": "Audio Video and Photography"
+  },
+  {
+    "Main Category": "Computers & Electronics",
+    "Sub Category": "Computers & Electronics Other"
+  },
+  {
+    "Main Category": "Computers & Electronics",
+    "Sub Category": "Computers Parts and Repair"
+  },
+  {
+    "Main Category": "Computers & Electronics",
+    "Sub Category": "Consumer Electronics Parts and Repair"
+  },
+  {
+    "Main Category": "Computers & Electronics",
+    "Sub Category": "Instruments and Controls"
+  },
+  {
+    "Main Category": "Computers & Electronics",
+    "Sub Category": "IT and Network Services and Support"
+  },
+  {
+    "Main Category": "Computers & Electronics",
+    "Sub Category": "Network Security Products"
+  },
+  {
+    "Main Category": "Computers & Electronics",
+    "Sub Category": "Networking Equipment and Systems"
+  },
+  {
+    "Main Category": "Computers & Electronics",
+    "Sub Category": "Office Machinery and Equipment"
+  },
+  {
+    "Main Category": "Computers & Electronics",
+    "Sub Category": "Peripherals Manufacturing"
+  },
+  {
+    "Main Category": "Computers & Electronics",
+    "Sub Category": "Semiconductor and Microchip Manufacturing"
+  },
+  {
+    "Main Category": "Consumer Services",
+    "Sub Category": "Automotive Repair & Maintenance"
+  },
+  {
+    "Main Category": "Consumer Services",
+    "Sub Category": "Consumer Services Other"
+  },
+  {
+    "Main Category": "Consumer Services",
+    "Sub Category": "Funeral Homes and Funeral Services"
+  },
+  {
+    "Main Category": "Consumer Services",
+    "Sub Category": "Laundry and Dry Cleaning"
+  },
+  {
+    "Main Category": "Consumer Services",
+    "Sub Category": "Parking Lots and Garage Management"
+  },
+  {
+    "Main Category": "Consumer Services",
+    "Sub Category": "Personal Care"
+  },
+  {
+    "Main Category": "Consumer Services",
+    "Sub Category": "Photofinishing Services"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Colleges and Universities"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Education Other"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Elementary and Secondary Schools"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Libraries Archives and Museums"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Sports Arts and Recreation Instruction"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Technical and Trade Schools"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Test Preparation"
+  },
+  {
+    "Main Category": "Energy & Utilities",
+    "Sub Category": "Alternative Energy Sources"
+  },
+  {
+    "Main Category": "Energy & Utilities",
+    "Sub Category": "Energy & Utilities Other"
+  },
+  {
+    "Main Category": "Energy & Utilities",
+    "Sub Category": "Gas and Electric Utilities"
+  },
+  {
+    "Main Category": "Energy & Utilities",
+    "Sub Category": "Gasoline and Oil Refineries"
+  },
+  {
+    "Main Category": "Energy & Utilities",
+    "Sub Category": "Sewage Treatment Facilities"
+  },
+  {
+    "Main Category": "Energy & Utilities",
+    "Sub Category": "Waste Management and Recycling"
+  },
+  {
+    "Main Category": "Energy & Utilities",
+    "Sub Category": "Water Treatment and Utilities"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Banks"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Credit Cards and Related Services"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Credit Unions"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Financial Services Other"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Insurance and Risk Management"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Investment Banking and Venture Capital"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Lending and Mortgage"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Personal Financial Planning and Private Banking"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Securities Agents and Brokers"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Trust Fiduciary and Custody Activities"
+  },
+  {
+    "Main Category": "Government",
+    "Sub Category": "Government Other"
+  },
+  {
+    "Main Category": "Government",
+    "Sub Category": "International Bodies and Organizations"
+  },
+  {
+    "Main Category": "Government",
+    "Sub Category": "Local Government"
+  },
+  {
+    "Main Category": "Government",
+    "Sub Category": "National Government"
+  },
+  {
+    "Main Category": "Government",
+    "Sub Category": "State-Provincial Government"
+  },
+  {
+    "Main Category": "Healthcare Pharmaceuticals & Biotech",
+    "Sub Category": "Biotechnology"
+  },
+  {
+    "Main Category": "Healthcare Pharmaceuticals & Biotech",
+    "Sub Category": "Diagnostic Laboratories"
+  },
+  {
+    "Main Category": "Healthcare Pharmaceuticals & Biotech",
+    "Sub Category": "Doctors and Health Care Practitioners"
+  },
+  {
+    "Main Category": "Healthcare Pharmaceuticals & Biotech",
+    "Sub Category": "Healthcare Pharmaceuticals and Biotech Other"
+  },
+  {
+    "Main Category": "Healthcare Pharmaceuticals & Biotech",
+    "Sub Category": "Hospitals"
+  },
+  {
+    "Main Category": "Healthcare Pharmaceuticals & Biotech",
+    "Sub Category": "Medical Devices"
+  },
+  {
+    "Main Category": "Healthcare Pharmaceuticals & Biotech",
+    "Sub Category": "Medical Supplies and Equipment"
+  },
+  {
+    "Main Category": "Healthcare Pharmaceuticals & Biotech",
+    "Sub Category": "Outpatient Care Centers"
+  },
+  {
+    "Main Category": "Healthcare Pharmaceuticals & Biotech",
+    "Sub Category": "Personal Health Care Products"
+  },
+  {
+    "Main Category": "Healthcare Pharmaceuticals & Biotech",
+    "Sub Category": "Pharmaceuticals"
+  },
+  {
+    "Main Category": "Healthcare Pharmaceuticals & Biotech",
+    "Sub Category": "Residential and Long-Term Care Facilities"
+  },
+  {
+    "Main Category": "Healthcare Pharmaceuticals & Biotech",
+    "Sub Category": "Veterinary Clinics and Services"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Aerospace and Defense"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Alcoholic Beverages"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Automobiles Boats and Motor Vehicles"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Chemicals and Petrochemicals"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Concrete Glass and Building Materials"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Farming and Mining Machinery and Equipment"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Food & Dairy Product Manufacturing and Packaging"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Furniture Manufacturing"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Heavy Machinery"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Manufacturing Other"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Metals Manufacturing"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Nonalcoholic Beverages"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Paper and Paper Products"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Plastics and Rubber Manufacturing"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Textiles Apparel and Accessories"
+  },
+  {
+    "Main Category": "Manufacturing",
+    "Sub Category": "Tools Hardware and Light Machinery"
+  },
+  {
+    "Main Category": "Media & Entertainment",
+    "Sub Category": "Adult Entertainment"
+  },
+  {
+    "Main Category": "Media & Entertainment",
+    "Sub Category": "E-commerce and Internet Businesses"
+  },
+  {
+    "Main Category": "Media & Entertainment",
+    "Sub Category": "Media & Entertainment Other"
+  },
+  {
+    "Main Category": "Media & Entertainment",
+    "Sub Category": "Motion Picture and Recording Producers"
+  },
+  {
+    "Main Category": "Media & Entertainment",
+    "Sub Category": "Motion Picture Exhibitors"
+  },
+  {
+    "Main Category": "Media & Entertainment",
+    "Sub Category": "Newspapers Books and Periodicals"
+  },
+  {
+    "Main Category": "Media & Entertainment",
+    "Sub Category": "Performing Arts"
+  },
+  {
+    "Main Category": "Media & Entertainment",
+    "Sub Category": "Radio and Television Broadcasting"
+  },
+  {
+    "Main Category": "Media & Entertainment",
+    "Sub Category": "Software"
+  },
+  {
+    "Main Category": "Non-Profit",
+    "Sub Category": "Advocacy Organizations"
+  },
+  {
+    "Main Category": "Non-Profit",
+    "Sub Category": "Charitable Organizations and Foundations"
+  },
+  {
+    "Main Category": "Non-Profit",
+    "Sub Category": "Non-Profit Other"
+  },
+  {
+    "Main Category": "Non-Profit",
+    "Sub Category": "Professional Associations"
+  },
+  {
+    "Main Category": "Non-Profit",
+    "Sub Category": "Religious Organizations"
+  },
+  {
+    "Main Category": "Non-Profit",
+    "Sub Category": "Social and Membership Organizations"
+  },
+  {
+    "Main Category": "Non-Profit",
+    "Sub Category": "Trade Groups and Labor Unions"
+  },
+  {
+    "Main Category": "Other",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "A-C - Commercial"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "A-C - Residential"
+  },
+  {
+    "Main Category": "Real Estate & Construction",
+    "Sub Category": "ArchitectureEngineering and Design"
+  },
+  {
+    "Main Category": "Real Estate & Construction",
+    "Sub Category": "Construction and Remodeling"
+  },
+  {
+    "Main Category": "Real Estate & Construction",
+    "Sub Category": "Construction Equipment and Supplies"
+  },
+  {
+    "Main Category": "Real Estate & Construction",
+    "Sub Category": "Property Leasing and Management"
+  },
+  {
+    "Main Category": "Real Estate & Construction",
+    "Sub Category": "Real Estate & Construction Other"
+  },
+  {
+    "Main Category": "Real Estate & Construction",
+    "Sub Category": "Real Estate Agents and Appraisers"
+  },
+  {
+    "Main Category": "Real Estate & Construction",
+    "Sub Category": "Real Estate Investment and Development"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Automobile Dealers"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Automobile Parts Stores"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Beer Wine and Liquor Stores"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Clothing and Shoes Stores"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Department Stores"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Florists"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Furniture Stores"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Gasoline Stations"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Grocery and Specialty Food Stores"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Hardware and Building Material Dealers"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Jewelry Luggage and Leather Goods Stores"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Office Supplies Stores"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Restaurants and Bars"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Retail Other"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Software & Internet Other"
+  },
+  {
+    "Main Category": "Retail",
+    "Sub Category": "Sporting Goods Hobby Book and Music Stores"
+  },
+  {
+    "Main Category": "Software & Internet",
+    "Sub Category": "Data Analytics Management and Storage"
+  },
+  {
+    "Main Category": "Software & Internet",
+    "Sub Category": "E-commerce and Internet Businesses"
+  },
+  {
+    "Main Category": "Software & Internet",
+    "Sub Category": "Games and Gaming"
+  },
+  {
+    "Main Category": "Software & Internet",
+    "Sub Category": "Software"
+  },
+  {
+    "Main Category": "Software & Internet",
+    "Sub Category": "Software & Internet Other"
+  },
+  {
+    "Main Category": "Telecommunications",
+    "Sub Category": "Cable Television Providers"
+  },
+  {
+    "Main Category": "Telecommunications",
+    "Sub Category": "E-commerce and Internet Businesses"
+  },
+  {
+    "Main Category": "Telecommunications",
+    "Sub Category": "Telecommunications Equipment and Accessories"
+  },
+  {
+    "Main Category": "Telecommunications",
+    "Sub Category": "Telecommunications Other"
+  },
+  {
+    "Main Category": "Telecommunications",
+    "Sub Category": "Telephone Service Providers and Carriers"
+  },
+  {
+    "Main Category": "Telecommunications",
+    "Sub Category": "Video and Teleconferencing"
+  },
+  {
+    "Main Category": "Telecommunications",
+    "Sub Category": "Wireless and Mobile"
+  },
+  {
+    "Main Category": "Transportation & Storage",
+    "Sub Category": "Air Couriers and Cargo Services"
+  },
+  {
+    "Main Category": "Transportation & Storage",
+    "Sub Category": "Airport Harbor and Terminal Operations"
+  },
+  {
+    "Main Category": "Transportation & Storage",
+    "Sub Category": "Freight Hauling (Rail and Truck)"
+  },
+  {
+    "Main Category": "Transportation & Storage",
+    "Sub Category": "Marine and Inland Shipping"
+  },
+  {
+    "Main Category": "Transportation & Storage",
+    "Sub Category": "Moving Companies and Services"
+  },
+  {
+    "Main Category": "Transportation & Storage",
+    "Sub Category": "Postal Express Delivery and Couriers"
+  },
+  {
+    "Main Category": "Transportation & Storage",
+    "Sub Category": "Transportation & Storage Other"
+  },
+  {
+    "Main Category": "Transportation & Storage",
+    "Sub Category": "Warehousing and Storage"
+  },
+  {
+    "Main Category": "Travel Recreation and Leisure",
+    "Sub Category": "Amusement Parks and Attractions"
+  },
+  {
+    "Main Category": "Travel Recreation and Leisure",
+    "Sub Category": "Cruise Ship Operations"
+  },
+  {
+    "Main Category": "Travel Recreation and Leisure",
+    "Sub Category": "Gambling and Gaming Industries"
+  },
+  {
+    "Main Category": "Travel Recreation and Leisure",
+    "Sub Category": "Hotels Motels and Lodging"
+  },
+  {
+    "Main Category": "Travel Recreation and Leisure",
+    "Sub Category": "Participatory Sports and Recreation"
+  },
+  {
+    "Main Category": "Travel Recreation and Leisure",
+    "Sub Category": "Passenger Airlines"
+  },
+  {
+    "Main Category": "Travel Recreation and Leisure",
+    "Sub Category": "Rental Cars"
+  },
+  {
+    "Main Category": "Travel Recreation and Leisure",
+    "Sub Category": "Resorts and Casinos"
+  },
+  {
+    "Main Category": "Travel Recreation and Leisure",
+    "Sub Category": "Spectator Sports and Teams"
+  },
+  {
+    "Main Category": "Travel Recreation and Leisure",
+    "Sub Category": "Taxi and Limousine Services"
+  },
+  {
+    "Main Category": "Travel Recreation and Leisure",
+    "Sub Category": "Trains Buses and Transit Systems"
+  },
+  {
+    "Main Category": "Travel Recreation and Leisure",
+    "Sub Category": "Travel Agents & Services"
+  },
+  {
+    "Main Category": "Travel Recreation and Leisure",
+    "Sub Category": "Travel Recreation and Leisure Other"
+  },
+  {
+    "Main Category": "Wholesale & Distribution",
+    "Sub Category": "Apparel Wholesalers"
+  },
+  {
+    "Main Category": "Wholesale & Distribution",
+    "Sub Category": "Automobile Parts Wholesalers"
+  },
+  {
+    "Main Category": "Wholesale & Distribution",
+    "Sub Category": "Beer Wine and Liquor Wholesalers"
+  },
+  {
+    "Main Category": "Wholesale & Distribution",
+    "Sub Category": "Chemicals and Plastics Wholesalers"
+  },
+  {
+    "Main Category": "Wholesale & Distribution",
+    "Sub Category": "Grocery and Food Wholesalers"
+  },
+  {
+    "Main Category": "Wholesale & Distribution",
+    "Sub Category": "Lumber and Construction Materials Wholesalers"
+  },
+  {
+    "Main Category": "Wholesale & Distribution",
+    "Sub Category": "Metal & Mineral Wholesalers"
+  },
+  {
+    "Main Category": "Wholesale & Distribution",
+    "Sub Category": "Office Equipment and Supplies Wholesalers"
+  },
+  {
+    "Main Category": "Wholesale & Distribution",
+    "Sub Category": "Petroleum Products Wholesalers"
+  },
+  {
+    "Main Category": "Wholesale & Distribution",
+    "Sub Category": "Wholesale & Distribution Other"
+  }
+]

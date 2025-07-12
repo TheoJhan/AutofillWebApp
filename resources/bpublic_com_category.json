@@ -1,0 +1,3218 @@
+[
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Arcades"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Art Galleries"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Botanical Gardens"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Casinos"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Cinema"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Cultural Center"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Festivals"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Jazz & Blues"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Movie Theatre"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Museums"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Music Venues"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Opera & Ballet"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Performing Arts"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Psychics"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Race Tracks"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Social Clubs"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Stadiums & Arenas"
+  },
+  {
+    "Main Category": "Arts & Entertainment",
+    "Sub Category": "Wineries"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Auto Body"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Auto Detailing"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Auto Glass Repair"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Auto Glass Tinting"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Auto Inspection"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Auto Insurance"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Auto Loans"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Auto Oil & Lube"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Auto Parts"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Auto Rental"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Auto Repair"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Auto Salvage Yards"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Body Shop"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Brake Repair"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Car Auctions"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Car Dealerships"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Car Insurance"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Car Stereo Installation"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Car Wash"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Emissions Testing"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Gas Stations"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Junk Car Removal"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Limo Services"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Motorcycle Dealers"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Motorcycle Repair"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Motorcycles"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Oil Change"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Roadside Assistance"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "RV Dealers"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "RV Rentals"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Salvage Yards"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Security System"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Smog Check Stations"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Snowmobile Dealers"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Stereos"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Tires"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Towing Companies"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Transmission Repair"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Truck Dealers"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Truck Rental"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Truck Repair"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Used Auto Parts"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Used Cars"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Used Trucks"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Van Rental"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Windshield Repair"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Adult Education"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Art Schools"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "College Counseling"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Colleges & Universities"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Cooking Schools"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Cosmetology Schools"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "CPR Classes"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Dance Schools"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Driving Schools"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Educational Services"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Elementary Schools"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "First Aid Classes"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Flight Instruction"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Language Schools"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Massage Schools"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Preschools"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Private Tutors"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Religious Schools"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Special Education"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Specialty Schools"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Swim School"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Test Preparation"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Tutoring Centers"
+  },
+  {
+    "Main Category": "Education",
+    "Sub Category": "Vocational Training"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Actors"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Bands & Groups"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Bartenders"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Boat Charters"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Cards & Stationery"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Caterers"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Circus & Acrobatic"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Classical Music"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Clowns"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Comedians"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Dance"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "DJs"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Event Photography"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Hotels"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Impersonators"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Magic"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Magicians"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Musicians"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Officiants"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Part & Event Planning"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Party Bus Rentals"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Party Equipment Rentals"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Party Supplies"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Personal Chefs"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Photographers"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Session Photography"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Singers"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Solo Musicians"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Speakers"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Tribute Bands"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Venues & Event Spaces"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Videographers"
+  },
+  {
+    "Main Category": "Event Services",
+    "Sub Category": "Wedding Planning"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Banks & Credit Unions"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Check Cashing"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Financial Advising"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Insurance"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Investing"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Pay-Day Loans"
+  },
+  {
+    "Main Category": "Financial Services",
+    "Sub Category": "Tax Services"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Afghan Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "African Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "American Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Arabian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Argentine Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Armenian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Asian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Asian Fusion"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Asian Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Australian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Austrian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Bagel Shop"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Bagels"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Bakeries"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Bangladeshi Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Banquet Facilities"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Banquet Halls"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Banquet Rooms"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Bar & Grill Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Barbecue Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Barbeque"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Basque"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "BBQ Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Belgian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Brasseries"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Brazilian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Breakfast & Brunch"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Breweries"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "British Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Buffets"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Burgers"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Burmese"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Butcher"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Cafes"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Cajun"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Cake & Pie Shop"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Cake Decorating"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Cambodian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Candy Stores"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Cantonese Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Caribbean Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Catalan"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Cheese Shop"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Cheesesteaks"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Chicken Wings"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Chinese Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Chinese Foods"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Chinese Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Chocolatiers & Shop"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Cocktails"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Coffee & Tea"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Coffee Shop"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Columbian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Comfort Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Convention Center"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Creole"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Creperies"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Cuban Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Czech Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Delicatessens"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Delis"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Desserts"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Dim Sum"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Diners"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Do-It-Yourself Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Dominican Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Donuts"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Egyptian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Ethiopian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Ethnic Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Family Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Farmers Market"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Fast Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Fast Food Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Filipino Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Fine Dining Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Fish & Chips"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Fondue"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Food Court"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Food Delivery Services"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Food Distributors"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Food Stands"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Food Trucks"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "French Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Frozen Yogurt Shop"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Fruits & Veggies"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Gastropubs"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Gelato"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "German Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Gluten-Free"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Greek Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Grocery"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Grocery Stores"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Haitian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Halal"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Hawaiian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Health Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Health Food Stores"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Health Markets"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Health Supplements"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Herbs & Spices"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Himalayan Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Hot Dogs"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Hungarian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Iberian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Ice Cream"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Ice Cream Parlors"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Indian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Indian Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Indonesian"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Internet Cafes"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Irish Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Italian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Italian Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Japanese Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Japanese Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Juice Bars"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Korean Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Kosher Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Laotian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Latin American Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Lebanese Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Liquor Stores"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Malaysian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Meat Shop"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Mediterranean Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Mexican Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Mexican Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Middle Eastern Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Modern European Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Mongolian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Pakistani Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Persian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Peruvian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Pizza"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Pizza Delivery"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Pizza Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Polish Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Portuguese Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Pretzels"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Puerto Rican Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Russian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Salad"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Salvadoran Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Sandwich Shop"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Scandinavian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Scottish Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Seafood"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Seafood Markets"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Seafood Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Senegalese Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Shanghaies Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Shaved Ice"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Singaporean Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Slovakian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Soul Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Soup"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "South African Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Southern Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Spanish Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Specialty Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Steak & Seafood"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Steak Houses"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Steak Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Street Vendors"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Supermarkets"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Sushi"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Sushi Bars"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Sushi Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Szechuan Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Taiwanese Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Take Out"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Take Out Restaurants"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Tapas"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Tapas Bars"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Taverns"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Tea Rooms"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Tex-Mex"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Thai Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Trinidadian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Turkish Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Ukrainian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Vegan Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Vegetarian Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Venezuelan Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Vietnamese Food"
+  },
+  {
+    "Main Category": "Food & Dining",
+    "Sub Category": "Wedding Caterers"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Barbers"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Beauty Supply"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Blow Dry Services"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Day Spas"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Eyelash Service"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Hair Extensions"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Hair Removal"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Hair Salons"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Hair Stylists"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Laser Hair Removal"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Makeup Artists"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Massage"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Medical Spas"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Men's Hair Salons"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Nail Salons"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Permanent Makeup"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Piercing"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Rolfing"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Skin Care"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Spray Tanning"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Tanning"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Tanning Beds"
+  },
+  {
+    "Main Category": "Health & Beauty",
+    "Sub Category": "Tattoo"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Air Conditioning"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Appliances & Repair"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Building Supplies"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Carpet Cleaning"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Carpet Installation"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Carpeting"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Commercial Real Estate"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Concrete"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Contractors"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Damage Restoration"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Electricians"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Electronics Repair"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Flooring"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Furniture Reupholstery"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Garage"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Garage Door Services"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Gardeners"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Gardening"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Handyman"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Heating"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Heating & Air Conditioning"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Home Cleaning"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Home Decor"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Home Improvement"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Home Inspectors"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Home Organization"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Home Repair"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Home Safety"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Home Theatre Installation"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Home Window Tinting"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "HVAC Services"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Interior Design"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Junk Removal"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Keys & Locksmith"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Kitchen Accessories"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Landscape Architects"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Landscaping"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Lawn & Garden"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Lighting Fixtures"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Locksmith"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Masonry"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Movers"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Organization"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Outdoor Lighting"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Painters"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Pest Control"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Plumbing"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Pool Cleaners"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Property Damage"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Recycling Center"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Roofing"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Security Systems"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Self Storage"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Shades & Blinds"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Snow Removal"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Solar Installation"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Tree Services"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Window Washing"
+  },
+  {
+    "Main Category": "Home Services",
+    "Sub Category": "Windows Installation"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Airport Shuttles"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Airports"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Bed & Breakfast"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Campgrounds"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Car Rental"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Guest Houses"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Hostels"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Limos"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Motorcycle Rental"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Public Transportation"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Resorts"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "RV Parks"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "RV Rental"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Ski Resorts"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Taxis"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Tours"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Train Stations"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Transportation"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Travel Services"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Vacation Rental Agents"
+  },
+  {
+    "Main Category": "Hotels & Travel",
+    "Sub Category": "Vacation Rentals"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Bankruptcy Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Brain Injury Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Business Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Car Accident Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Child Custody Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Child Support Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Civil rights Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Corporate Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Criminal Defense Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Divorce Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "DUI Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "DWI Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Employment Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Entertainment Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Estate Planning Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Family Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Foreclosure Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Immigration Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Litigation Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Medical Malpractice Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Motorcycle Accident Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Personal Injury Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Probate Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Real Estate Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Social Security Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Tax Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Traffic Ticket Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Trucking Accident Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Workers Compensation Attorney"
+  },
+  {
+    "Main Category": "Legal Services",
+    "Sub Category": "Wrongful Termination Attorney"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Acupuncture"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Allergists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Anesthesiologists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Audiologist"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Cannabis Clinics"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Cardiologists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Chinese Medicine"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Chiropractors"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Cosmetic Dentists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Cosmetic Surgeons"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Counseling"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Dentists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Dermatologists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Diagnostic Imaging"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Diagnostic Services"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Doctors"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Ear Nose & Throat"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Endodontists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Family Practice"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Fertility"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Gastroenterologist"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "General Dentistry"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Gerontologists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Gynecologists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Hearing Aid Providers"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Holistic"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Home Health Care"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Hospice"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Hospitals"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Internal Medicine"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Laboratory Testing"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Lactation Services"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Laser Eye Surgery"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Massage Therapy"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Medical Centers"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Medical Transportation"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Midwives"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Neurologist"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Nutritionists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Occupational Therapy"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Oncologist"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Ophthalmologists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Optometrists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Oral Surgeons"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Orthodontists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Orthopedists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Osteopathic Physicians"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Pediatric Dentists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Pediatricians"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Periodontists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Physical Therapy"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Podiatrists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Proctologists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Psychiatrists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Pulmonologists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Reflexology"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Rehabilitation Center"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Retirement Homes"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Speech Therapists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Sports Medicine"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Tattoo Removal"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Urgent Care"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Urologists"
+  },
+  {
+    "Main Category": "Medical Services",
+    "Sub Category": "Weight Loss Centers"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Bars"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Champagne Bars"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Cocktail Bars"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Comedy Clubs"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Country Dance Halls"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Dance Clubs"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Dive Bars"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Gay Bars"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Hookah Bars"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Karaoke"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Lounges"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Piano Bars"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Pool Halls"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Pubs"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Sports Bars"
+  },
+  {
+    "Main Category": "Nightlife",
+    "Sub Category": "Wine Bars"
+  },
+  {
+    "Main Category": "Pet Services",
+    "Sub Category": "Animal Shelters"
+  },
+  {
+    "Main Category": "Pet Services",
+    "Sub Category": "Dog Walkers"
+  },
+  {
+    "Main Category": "Pet Services",
+    "Sub Category": "Horse Boarding"
+  },
+  {
+    "Main Category": "Pet Services",
+    "Sub Category": "Pet Boarding"
+  },
+  {
+    "Main Category": "Pet Services",
+    "Sub Category": "Pet Groomers"
+  },
+  {
+    "Main Category": "Pet Services",
+    "Sub Category": "Pet Services"
+  },
+  {
+    "Main Category": "Pet Services",
+    "Sub Category": "Pet Stores"
+  },
+  {
+    "Main Category": "Pet Services",
+    "Sub Category": "Pet Training"
+  },
+  {
+    "Main Category": "Pet Services",
+    "Sub Category": "Veterinarians"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Accountants"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Architects"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Career Counseling"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Childcare"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Data Entry"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Employment Agencies"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Film Production"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Graphic Design"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Life Coach"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Marketing"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Matchmakers"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Nanny"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Notary"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Office Cleaning"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Payroll Services"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Personal Assistants"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Photographer"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Private Investigation"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Public Relations"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Talent Agencies"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Taxidermy"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Translation Services"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Virtual Assistant"
+  },
+  {
+    "Main Category": "Professional Services",
+    "Sub Category": "Web Design"
+  },
+  {
+    "Main Category": "Public Services",
+    "Sub Category": "Courthouses"
+  },
+  {
+    "Main Category": "Public Services",
+    "Sub Category": "Departments Of Motor Vehicles"
+  },
+  {
+    "Main Category": "Public Services",
+    "Sub Category": "Embassy"
+  },
+  {
+    "Main Category": "Public Services",
+    "Sub Category": "Fire Departments"
+  },
+  {
+    "Main Category": "Public Services",
+    "Sub Category": "Historical Buildings"
+  },
+  {
+    "Main Category": "Public Services",
+    "Sub Category": "Libraries"
+  },
+  {
+    "Main Category": "Public Services",
+    "Sub Category": "Police Departments"
+  },
+  {
+    "Main Category": "Public Services",
+    "Sub Category": "Post Offices"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Apartment Buildings"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Apartment Complexes"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Apartment Rental"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Appraisers"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Architecture"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Associations"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Auctions"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Brokers"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Building Inspections"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Building Maintenance"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Condominiums"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Developers"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Escrow"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Executive Offices"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Executive Suites"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Extended Stay Hotels"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Facilities Management"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Furnished Apartments"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "General Real Estate"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Home Inspection"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Home Lenders"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Home Rental"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Home Staging"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Homes For Rent"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Hotel Reservations"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Investments"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Loan Brokers"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Loan Modification"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Loans"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Mobile Home Parks"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Mobile Homes"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Mortgage Brokers"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Mortgage Companies"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Mortgage Refinancing"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Mortgages"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Office Space For Rent"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Property Maintenance"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Property Management"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Real Estate Agency"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Real Estate Appraisers"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Real Estate Brokers"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Real Estate Consultants"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Real Estate Developers"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Real Estate Investments"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Real Estate Loans"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Real Estate Management"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Realtors"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Rental Agencies"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Retirement Communities"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Retirement Housing"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Title Company"
+  },
+  {
+    "Main Category": "Real Estate Services",
+    "Sub Category": "Unfurnished Apartments"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Antique Dealers"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Appliances"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Army & Navy Stores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Art"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Art Supplies"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Arts & Crafts"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Auction Houses"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Audio"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Baby Gear & Furniture"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Basket"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Bikes"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Birthday Parties"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Boats"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Bookstores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Bridal"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Candles"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Cards"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Children's Clothing"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Coin & Stamp Dealers"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Coin Dealers"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Collectibles"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Comic Books"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Computers"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Consignment"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Consignment Shop"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Convenience Stores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Costumes"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Crafts"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Department Stores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Discount Store"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Discount Stores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Dressmakers"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Drugstores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Education"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Electronics"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Equipment Rental"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Eyewear & Opticians"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Fabric Stores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Factory Outlets"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Fashion"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Fireworks"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Flea Markets"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Florists"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Flower Shop"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Flowers"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Flowers & Gifts"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Formal Wear"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Framing"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Fruit Baskets"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Funeral Flowers"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Furniture Stores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Games"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Gift Baskets"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Gift Shop"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Gifts"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Glasses"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Golf Equipment"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Guns"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Guns & Ammo"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Hardware Stores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Hats"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Hobby Shop"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Home & Garden"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Hot Tub & Pool"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Jewelry"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Kitchen & Bath"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Knitting Supplies"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Leather Goods"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Light"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Lingerie"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Liquor"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Luggage"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Malls"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Market"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Maternity Wear"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Mattresses"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Medical Supplies"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Men's Clothing"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Mobile Phones"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Motorcycle Gear"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Music & DVDs"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Music Shop"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Newspapers & Magazines"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Nurseries & Gardening"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Office Equipment"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Outdoor Gear"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Outlet Malls"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Outlet Stores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Party"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Pawn Shop"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Personal Shopping"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Photography Store"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Pool & Billiards"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Pop-Up Shop"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Rare Books"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Record Store"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Rugs"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Shoe Stores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Shopping Centers"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Shopping Malls"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Sign Dealers"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Smoke Shop"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Sporting Goods"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Sports Collectibles"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Sports Wear"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Surf Shop"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Swimwear"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Thrift Stores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Toy Stores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Trophy Shop"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Tuxedo Rental"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Tuxedos"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Uniforms"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Video Games"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Vinyl Records"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Watches"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Weddings"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Wholesale Stores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Wigs"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Women's Clothing"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Amusement Parks"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Aquariums"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Archery"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Badminton"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Barre Classes"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Basketball Courts"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Beaches"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Bike Rentals"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Boating"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Bowling"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Boxing"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Climbing"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Dance Studios"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Disc Golf"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Diving"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Dog Parks"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Fishing"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Fitness Classes"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Free Diving"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Go Karts"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Golf"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Gun Ranges"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Gymnastics"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Gyms"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Hang Gliding"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Hiking"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Horse Racing"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Horseback Riding"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Hot Air Balloons"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Kayaking"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Kiteboarding"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Lakes"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Laser Tag"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Leisure Centers"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Martial Arts"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Mini Golf"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Mountain Biking"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Paddleboarding"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Paintball"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Parks"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Pilates"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Playgrounds"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Recreation Centers"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Rock Climbing"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Scuba Diving"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Skate Parks"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Skating Rinks"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Skydiving"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Soccer"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Spin Classes"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Sports Clubs"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Squash"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Summer Camps"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Surfing"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Swimming Lessons"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Swimming Pools"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Tai Chi"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Tennis"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Trainers"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Trampoline Parks"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Tubing"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Yoga"
+  },
+  {
+    "Main Category": "Things To Do",
+    "Sub Category": "Zoos"
+  }
+]

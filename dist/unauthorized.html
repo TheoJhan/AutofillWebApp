@@ -1,0 +1,180 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Unauthorized Access - CBAA</title><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"><style>* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+
+        .error-container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            max-width: 500px;
+            width: 90%;
+        }
+
+        .error-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+
+        .error-title {
+            font-size: 32px;
+            font-weight: 600;
+            color: #e74c3c;
+            margin-bottom: 15px;
+        }
+
+        .error-message {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .error-details {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .error-details h4 {
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .error-details p {
+            color: #6c757d;
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background: #4A4DE6;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #3a3dd6;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+            transform: translateY(-2px);
+        }
+
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #c82333;
+            transform: translateY(-2px);
+        }
+
+        .extension-info {
+            background: #e3f2fd;
+            border: 1px solid #bbdefb;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .extension-info h4 {
+            color: #1976d2;
+            margin-bottom: 10px;
+        }
+
+        .extension-info p {
+            color: #424242;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .steps {
+            text-align: left;
+            margin-top: 15px;
+        }
+
+        .steps ol {
+            padding-left: 20px;
+            color: #424242;
+            font-size: 14px;
+        }
+
+        .steps li {
+            margin-bottom: 8px;
+        }</style></head><body><div class="error-container"><div class="error-icon">🔐</div><h1 class="error-title">Unauthorized Access</h1><p class="error-message">You don't have permission to access this application. Please authenticate through the browser extension to continue.</p><div class="error-details"><h4>Access Details:</h4><p><strong>URL:</strong> <span id="current-url"></span></p><p><strong>Time:</strong> <span id="current-time"></span></p><p><strong>User Agent:</strong> <span id="user-agent"></span></p></div><div class="extension-info"><h4>🔌 Browser Extension Required</h4><p>This application requires authentication through the CB-PH Advance Autofill browser extension.</p><div class="steps"><ol><li>Install the CB-PH Advance Autofill extension</li><li>Log in to your account through the extension</li><li>Click "Launch Web App" in the extension</li><li>You'll be automatically redirected here with proper authentication</li></ol></div></div><div class="action-buttons"><button class="btn btn-primary" onclick="retryAccess()">🔄 Retry Access</button> <button class="btn btn-secondary" onclick="goHome()">🏠 Go Home</button> <button class="btn btn-danger" onclick="reportIssue()">📧 Report Issue</button></div></div><script>// Display current page information
+        document.getElementById('current-url').textContent = window.location.href;
+        document.getElementById('current-time').textContent = new Date().toLocaleString();
+        document.getElementById('user-agent').textContent = navigator.userAgent.substring(0, 50) + '...';
+
+        function retryAccess() {
+            // Try to access the login page
+            window.location.href = '/index.html';
+        }
+
+        function goHome() {
+            // Redirect to login page
+            window.location.href = '/index.html';
+        }
+
+        function reportIssue() {
+            // Open email client to report issue
+            const subject = encodeURIComponent('CB-PHAA Access Issue Report');
+            const body = encodeURIComponent(`I'm experiencing an unauthorized access issue.
+
+URL: ${window.location.href}
+Time: ${new Date().toLocaleString()}
+User Agent: ${navigator.userAgent}
+
+Please help me resolve this issue.`);
+            
+            window.location.href = `mailto:support@cb-phaa.com?subject=${subject}&body=${body}`;
+        }
+
+        // Auto-retry after 30 seconds
+        setTimeout(() => {
+            console.log("🔄 Auto-retrying access...");
+            retryAccess();
+        }, 30000);</script></body></html>

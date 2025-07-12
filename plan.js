@@ -25,9 +25,26 @@ function updateTheme(theme) {
 }
 
 // Firebase imports and configuration
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
-import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
-import { getFirestore, collection, addDoc, serverTimestamp, onSnapshot, doc, updateDoc, query, where, orderBy, getDocs, setDoc } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js";
+import { initializeApp } from 'firebase/app';
+import { 
+  getAuth, 
+  onAuthStateChanged, 
+  signOut 
+} from 'firebase/auth';
+import { 
+  getFirestore, 
+  collection, 
+  addDoc, 
+  serverTimestamp, 
+  onSnapshot, 
+  doc, 
+  updateDoc, 
+  query, 
+  where, 
+  orderBy, 
+  getDocs, 
+  setDoc 
+} from 'firebase/firestore';
 
 const firebaseConfig = {
   apiKey: "AIzaSyBZwNTgvurQB2XZTdG0hXEhH9nhHEsSyiY",

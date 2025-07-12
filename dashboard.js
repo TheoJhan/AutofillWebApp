@@ -1,9 +1,9 @@
 // Firebase configuration and initialization
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+import { initializeApp } from 'firebase/app';
 import { 
     getAuth, 
     onAuthStateChanged 
-} from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
+} from 'firebase/auth';
 import { 
     getFirestore, 
     collection, 
@@ -18,7 +18,8 @@ import {
     limit,
     getDocs,
     getDoc
-} from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+} from 'firebase/firestore';
+
 
 const firebaseConfig = {
     apiKey: "AIzaSyBZwNTgvurQB2XZTdG0hXEhH9nhHEsSyiY",

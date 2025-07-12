@@ -1,0 +1,794 @@
+[
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Auto parts"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Body / Glass"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "New / Used"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Oil Change / Lube"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Rentals"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Repair"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Shuttle"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Towing"
+  },
+  {
+    "Main Category": "Automotive",
+    "Sub Category": "Wash"
+  },
+  {
+    "Main Category": "Convenience",
+    "Sub Category": "Auto"
+  },
+  {
+    "Main Category": "Convenience",
+    "Sub Category": "Food"
+  },
+  {
+    "Main Category": "Convenience",
+    "Sub Category": "Gas"
+  },
+  {
+    "Main Category": "Convenience",
+    "Sub Category": "Grocery"
+  },
+  {
+    "Main Category": "Convenience",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Electronic",
+    "Sub Category": "Buy"
+  },
+  {
+    "Main Category": "Electronic",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Electronic",
+    "Sub Category": "Recycle"
+  },
+  {
+    "Main Category": "Electronic",
+    "Sub Category": "Repair"
+  },
+  {
+    "Main Category": "Entertainment",
+    "Sub Category": "Amusement"
+  },
+  {
+    "Main Category": "Entertainment",
+    "Sub Category": "Billiards"
+  },
+  {
+    "Main Category": "Entertainment",
+    "Sub Category": "Casino"
+  },
+  {
+    "Main Category": "Entertainment",
+    "Sub Category": "Clubs"
+  },
+  {
+    "Main Category": "Entertainment",
+    "Sub Category": "Comedy"
+  },
+  {
+    "Main Category": "Entertainment",
+    "Sub Category": "Festivals"
+  },
+  {
+    "Main Category": "Entertainment",
+    "Sub Category": "Movie"
+  },
+  {
+    "Main Category": "Entertainment",
+    "Sub Category": "Museums"
+  },
+  {
+    "Main Category": "Entertainment",
+    "Sub Category": "Music"
+  },
+  {
+    "Main Category": "Entertainment",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Entertainment",
+    "Sub Category": "Parks"
+  },
+  {
+    "Main Category": "Entertainment",
+    "Sub Category": "Theatre"
+  },
+  {
+    "Main Category": "Fair - Amusement",
+    "Sub Category": "Things to Buy"
+  },
+  {
+    "Main Category": "Fair - Amusement",
+    "Sub Category": "Things to Do"
+  },
+  {
+    "Main Category": "Fair - Amusement",
+    "Sub Category": "Things to Drink"
+  },
+  {
+    "Main Category": "Fair - Amusement",
+    "Sub Category": "Things to Eat"
+  },
+  {
+    "Main Category": "Fast Food",
+    "Sub Category": "Burgers"
+  },
+  {
+    "Main Category": "Fast Food",
+    "Sub Category": "Food Trucks"
+  },
+  {
+    "Main Category": "Fast Food",
+    "Sub Category": "Health Food"
+  },
+  {
+    "Main Category": "Fast Food",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Fast Food",
+    "Sub Category": "Pizza"
+  },
+  {
+    "Main Category": "Fast Food",
+    "Sub Category": "Sandwich"
+  },
+  {
+    "Main Category": "Fast Food",
+    "Sub Category": "Sea Food"
+  },
+  {
+    "Main Category": "Fast Food",
+    "Sub Category": "Soups"
+  },
+  {
+    "Main Category": "Fast Food",
+    "Sub Category": "Street Food"
+  },
+  {
+    "Main Category": "Health",
+    "Sub Category": "Chiropractic"
+  },
+  {
+    "Main Category": "Health",
+    "Sub Category": "Clinic"
+  },
+  {
+    "Main Category": "Health",
+    "Sub Category": "Dentistry"
+  },
+  {
+    "Main Category": "Health",
+    "Sub Category": "Eye care"
+  },
+  {
+    "Main Category": "Health",
+    "Sub Category": "Holistic Care"
+  },
+  {
+    "Main Category": "Health",
+    "Sub Category": "Massage"
+  },
+  {
+    "Main Category": "Health",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Health",
+    "Sub Category": "Pharmacy"
+  },
+  {
+    "Main Category": "Health",
+    "Sub Category": "Sport Medicine"
+  },
+  {
+    "Main Category": "Health & Nutrition",
+    "Sub Category": ""
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Appliance"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Bed/ Bath"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Carpet/ Rugs"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Cleaning"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Construction"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Convenience"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Furniture"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Greenhouse/Garden"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Housewares"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Improvements"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Landscape"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Pest Control"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Pool Spa"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Reality New / Used"
+  },
+  {
+    "Main Category": "Home-Garden",
+    "Sub Category": "Security"
+  },
+  {
+    "Main Category": "Industrial",
+    "Sub Category": "Agriculture"
+  },
+  {
+    "Main Category": "Industrial",
+    "Sub Category": "Construction"
+  },
+  {
+    "Main Category": "Industrial",
+    "Sub Category": "High Tech"
+  },
+  {
+    "Main Category": "Industrial",
+    "Sub Category": "Manufacturing"
+  },
+  {
+    "Main Category": "Industrial",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Industrial",
+    "Sub Category": "Sales"
+  },
+  {
+    "Main Category": "Industrial",
+    "Sub Category": "Scientific"
+  },
+  {
+    "Main Category": "Industrial",
+    "Sub Category": "Technical"
+  },
+  {
+    "Main Category": "Industrial",
+    "Sub Category": "Warehousing"
+  },
+  {
+    "Main Category": "Industrial",
+    "Sub Category": "Waste Management"
+  },
+  {
+    "Main Category": "Lodging",
+    "Sub Category": "Bed / Breakfast"
+  },
+  {
+    "Main Category": "Lodging",
+    "Sub Category": "Campgrounds"
+  },
+  {
+    "Main Category": "Lodging",
+    "Sub Category": "Casino"
+  },
+  {
+    "Main Category": "Lodging",
+    "Sub Category": "Guide Services"
+  },
+  {
+    "Main Category": "Lodging",
+    "Sub Category": "Hotel / Motels"
+  },
+  {
+    "Main Category": "Lodging",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Lodging",
+    "Sub Category": "Rental/Lease"
+  },
+  {
+    "Main Category": "Lodging",
+    "Sub Category": "Resorts"
+  },
+  {
+    "Main Category": "Misc",
+    "Sub Category": "Food"
+  },
+  {
+    "Main Category": "Misc",
+    "Sub Category": "Internet"
+  },
+  {
+    "Main Category": "Misc",
+    "Sub Category": "Pets"
+  },
+  {
+    "Main Category": "Misc",
+    "Sub Category": "Repair"
+  },
+  {
+    "Main Category": "Misc",
+    "Sub Category": "Service"
+  },
+  {
+    "Main Category": "Misc",
+    "Sub Category": "Shopping"
+  },
+  {
+    "Main Category": "Misc",
+    "Sub Category": "Sports"
+  },
+  {
+    "Main Category": "On-Line Services",
+    "Sub Category": ""
+  },
+  {
+    "Main Category": "Pets",
+    "Sub Category": "Food"
+  },
+  {
+    "Main Category": "Pets",
+    "Sub Category": "For Sale"
+  },
+  {
+    "Main Category": "Pets",
+    "Sub Category": "Grooming"
+  },
+  {
+    "Main Category": "Pets",
+    "Sub Category": "Hotel / Boarding"
+  },
+  {
+    "Main Category": "Pets",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Pets",
+    "Sub Category": "Pet Store"
+  },
+  {
+    "Main Category": "Pets",
+    "Sub Category": "Supplies"
+  },
+  {
+    "Main Category": "Pets",
+    "Sub Category": "Training"
+  },
+  {
+    "Main Category": "Pets",
+    "Sub Category": "Veterinarian"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "American"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "Asia"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "BBQ"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "Coffee House"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "Drive In"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "Ethnic"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "European"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "Fine Dining"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "Italian"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "Mexican"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "Sea Food"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "Specialty"
+  },
+  {
+    "Main Category": "Restraint's",
+    "Sub Category": "Steak House"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Apparel/Seamstress"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Appliance Repairs"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Automobile"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Beauty Salon"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Child"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Construction"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Contractors"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Dry Cleaning"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Education"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Financial"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Guide Services"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Health"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Heating/Cooling"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Home & Décor"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Janitorial /Cleaning"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Legal"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Lessons"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Logistics"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Moving"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Nail Salon"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Phones / Wireless"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Photography"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Reality New / Used"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Sewing"
+  },
+  {
+    "Main Category": "Service",
+    "Sub Category": "Tattoo-Pierce"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Antiques"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Apparel"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Arts /Craft"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Books"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Centers"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Convenience Store"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Department Stores"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Drug Store"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Electronic"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Florist"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Furniture"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Gifts"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Groceries"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Hardware"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Home/Housewares"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Jewelry"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Music"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Office"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Photography"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Sporting Goods"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Tools"
+  },
+  {
+    "Main Category": "Shopping",
+    "Sub Category": "Toys / Games"
+  },
+  {
+    "Main Category": "Specialty Food",
+    "Sub Category": "Bakery"
+  },
+  {
+    "Main Category": "Specialty Food",
+    "Sub Category": "Candy"
+  },
+  {
+    "Main Category": "Specialty Food",
+    "Sub Category": "Coffee"
+  },
+  {
+    "Main Category": "Specialty Food",
+    "Sub Category": "Fried"
+  },
+  {
+    "Main Category": "Specialty Food",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Specialty Food",
+    "Sub Category": "Treats"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Bowling"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Cycling"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Fishing"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Golf"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Guide Services"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Gun Ranges"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Health Clubs"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Hunting"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Parks"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Specialty"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Sporting Goods"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Surfing"
+  },
+  {
+    "Main Category": "Sport-Rec",
+    "Sub Category": "Swim"
+  },
+  {
+    "Main Category": "Transportation Logistics",
+    "Sub Category": ""
+  },
+  {
+    "Main Category": "Travel",
+    "Sub Category": "Airlines"
+  },
+  {
+    "Main Category": "Travel",
+    "Sub Category": "Airports"
+  },
+  {
+    "Main Category": "Travel",
+    "Sub Category": "Auto"
+  },
+  {
+    "Main Category": "Travel",
+    "Sub Category": "Limo / Shuttle"
+  },
+  {
+    "Main Category": "Travel",
+    "Sub Category": "Other"
+  },
+  {
+    "Main Category": "Travel",
+    "Sub Category": "Parking"
+  },
+  {
+    "Main Category": "Travel",
+    "Sub Category": "Rentals"
+  },
+  {
+    "Main Category": "Travel",
+    "Sub Category": "Taxi"
+  },
+  {
+    "Main Category": "Web Site Development",
+    "Sub Category": ""
+  }
+]

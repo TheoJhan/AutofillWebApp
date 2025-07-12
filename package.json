@@ -1,0 +1,36 @@
+{
+  "name": "autofill-webapp",
+  "version": "1.0.0",
+  "description": "Autofill Web Application with obfuscated JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "serve": "webpack serve --mode development"
+  },
+  "keywords": [
+    "webapp",
+    "autofill",
+    "firebase"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "html-minimizer-webpack-plugin": "^5.0.2",
+    "html-webpack-plugin": "^5.5.3",
+    "javascript-obfuscator": "^4.1.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.100.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-obfuscator": "^3.5.1"
+  },
+  "dependencies": {
+    "firebase": "^11.10.0"
+  }
+}
