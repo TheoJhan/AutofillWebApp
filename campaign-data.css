@@ -349,4 +349,44 @@ input[type="file"]::file-selector-button {
 .extraction-notification.show {
     opacity: 1;
     transform: translateY(0);
+}
+
+/* Input with checkbox styles */
+.input-with-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.input-with-checkbox input[type="text"],
+.input-with-checkbox input[type="file"] {
+    flex: 1;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.alt-checkbox {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.alt-label {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.alt-checkbox:checked + .alt-label {
+    color: var(--primary-color);
+    font-weight: 600;
 } 

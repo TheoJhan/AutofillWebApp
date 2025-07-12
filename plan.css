@@ -363,4 +363,283 @@ body, html {
 .plan-comparison td img {
     width: 20px;
     height: 20px;
+}
+
+/* Sticky cart header */
+.cart-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem;
+    z-index: 110;
+}
+#cart-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+#cart-btn img {
+    width: 32px;
+    height: 32px;
+}
+#cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #4A4DE6;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 7px;
+    font-size: 12px;
+    min-width: 20px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(74,77,230,0.15);
+}
+#cart-summary {
+    font-weight: 500;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+/* Checkout panel styles */
+.checkout-panel {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    max-width: 100vw;
+    height: 100vh;
+    background: var(--card-bg);
+    box-shadow: -4px 0 24px rgba(0,0,0,0.08);
+    z-index: 2000;
+    padding: 2rem;
+    overflow-y: auto;
+    transition: transform 0.3s cubic-bezier(.4,0,.2,1);
+}
+.checkout-panel.open {
+    display: block;
+    transform: translateX(0);
+}
+#checkout-list {
+    margin-bottom: 1.5rem;
+}
+.checkout-plan-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+.checkout-plan-item:last-child {
+    border-bottom: none;
+}
+.checkout-plan-title {
+    font-weight: 500;
+    color: var(--text-primary);
+}
+.checkout-plan-price {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+#confirm-checkout {
+    margin-top: 1.5rem;
+    width: 100%;
+    font-size: 1.1rem;
+}
+#close-checkout {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--text-secondary);
+}
+
+/* Enhanced Billing History Styles */
+.billing-history-section {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: background-color 0.3s;
+}
+
+.billing-history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.billing-history-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.billing-stats {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, var(--primary-color), #6366f1);
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 140px;
+    box-shadow: 0 2px 8px rgba(74, 77, 230, 0.2);
+}
+
+.stat-card .stat-label {
+    display: block;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    margin-bottom: 0.5rem;
+}
+
+.stat-card .stat-value {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.billing-history-table-container {
+    background: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+.billing-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.billing-history-table th {
+    background: var(--bg-color);
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.billing-history-table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+.billing-history-row:hover {
+    background: var(--bg-color);
+    transition: background-color 0.2s;
+}
+
+.date-cell {
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.plans-cell {
+    font-weight: 500;
+}
+
+.payment-cell {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.status-cell, .approved-cell {
+    text-align: center;
+}
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-badge.status-pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-badge.status-approved {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-badge.status-completed {
+    background: #d1ecf1;
+    color: #0c5460;
+}
+
+.status-badge.status-cancelled {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.approved-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.approved-badge.approved {
+    background: #d4edda;
+    color: #155724;
+}
+
+.approved-badge.pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+/* Responsive design for billing history */
+@media (max-width: 768px) {
+    .billing-history-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .billing-stats {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .stat-card {
+        flex: 1;
+        min-width: auto;
+    }
+    
+    .billing-history-table {
+        font-size: 0.8rem;
+    }
+    
+    .billing-history-table th,
+    .billing-history-table td {
+        padding: 0.75rem 0.5rem;
+    }
+    
+    .billing-history-table-container {
+        overflow-x: auto;
+    }
 } 

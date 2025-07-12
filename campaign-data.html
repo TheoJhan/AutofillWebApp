@@ -101,11 +101,23 @@
                        
                         <div class="form-group">
                             <label for="contactFirstNameBox">Contact First Name:</label>
-                            <input type="text" id="contactFirstNameBox">
+                            <div class="input-with-checkbox">
+                                <input type="text" id="contactFirstNameBox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="contactFirstNameAlt" class="alt-checkbox">
+                                    <label for="contactFirstNameAlt" class="alt-label">Alternative</label>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="contactLastNameBox">Contact Last Name:</label>
-                            <input type="text" id="contactLastNameBox">
+                            <div class="input-with-checkbox">
+                                <input type="text" id="contactLastNameBox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="contactLastNameAlt" class="alt-checkbox">
+                                    <label for="contactLastNameAlt" class="alt-label">Alternative</label>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="contactEmailBox">Contact Email: <span id="emailWarning" style="display: none; color: red; font-size: 12px;">⚠ Email contains "DO NOT PUBLISH"</span></label>
@@ -202,8 +214,26 @@
                     </div>
                     <div class="form-section">
                         <h3 class="section-title">Logo & Images</h3>
-                        <div class="form-group"><label for="logoBox">Campaign Logo:</label><input type="file" id="logoBox"></div>
-                        <div class="form-group"><label for="image1Box">Image 1:</label><input type="file" id="image1Box"></div>
+                        <div class="form-group">
+                            <label for="logoBox">Campaign Logo:</label>
+                            <div class="input-with-checkbox">
+                                <input type="file" id="logoBox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="logoAlt" class="alt-checkbox">
+                                    <label for="logoAlt" class="alt-label">Alternative</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="image1Box">Image 1/Banner:</label>
+                            <div class="input-with-checkbox">
+                                <input type="file" id="image1Box">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" id="image1Alt" class="alt-checkbox">
+                                    <label for="image1Alt" class="alt-label">Alternative</label>
+                                </div>
+                            </div>
+                        </div>
                         <div class="form-group"><label for="image2Box">Image 2:</label><input type="file" id="image2Box"></div>
                         <div class="form-group"><label for="image3Box">Image 3:</label><input type="file" id="image3Box"></div>
                     </div>

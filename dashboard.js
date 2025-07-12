@@ -471,23 +471,16 @@ function populateTableWithCitationsData(citationsData) {
 
         // Identifier for new citations
         let newCitationIcon = '';
-        if (data.action === 'Add Listing') {
-            newCitationIcon = `<img src="icons/replacemajor.svg" alt="New" title="New Citation" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 4px;">`;
+        if (data.action === 'Replacement') {
+            newCitationIcon = `<img src="icons/replacemajor.svg" alt="Replacement" title="Replacement Citation" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 4px;">`;
         }
 
-        // Action icons: for new, show redirect, note, analyze, delete (replace 3-dot only)
+        // Action icons: use the same set and order for all citations
         let actionIcons = '';
-        if (data.action === 'Add Listing') {
-            actionIcons = `<img src="icons/external-link.svg" title="Open Link" class="action-icon-redirect">
-                <img src="icons/note.svg" title="Add Note" class="action-icon-note" style="width:18px;height:18px;cursor:pointer;">
-                <img src="icons/chart-bar.svg" title="Analyze" class="action-icon-analyze">
-                <img src="icons/delete.svg" title="Delete" class="action-icon-delete" style="width:18px;height:18px;cursor:pointer;">`;
-        } else {
             actionIcons = `<img src="icons/external-link.svg" title="Open Link" class="action-icon-redirect">
                 <img src="icons/chart-bar.svg" title="View Stats" class="action-icon-analyze">
                 <img src="icons/note-edit.svg" title="Add Note" class="action-icon-note" style="width:18px;height:18px;cursor:pointer;">
                 <img src="icons/more-horizontal.svg" title="More Options">`;
-        }
 
         row.innerHTML = `
             <td><input type="checkbox" class="row-checkbox"></td>
@@ -514,7 +507,7 @@ function populateTableWithCitationsData(citationsData) {
         });
 
         // Add delete handler for new citations
-        if (data.action === 'Add Listing') {
+        if (data.action === 'Replacement') {
             const deleteIcon = row.querySelector('.action-icon-delete');
             if (deleteIcon) {
                 deleteIcon.addEventListener('click', function(e) {
@@ -1052,21 +1045,27 @@ function applyFilters() {
     });
 }
 
-// Open modal
+function normalizeDomain(domain) {
+    if (!domain) return '';
+    // Remove protocol, www, and trailing slashes, lowercase
+    return domain.replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0].toLowerCase();
+}
+
 async function openAddCitationModal() {
     console.log('🚀 Opening Add Citation Modal...');
-    
     // Load citations from JSON file when modal opens
     try {
         console.log('📥 Loading citations from JSON file...');
         const citations = await loadCitations();
         console.log('📊 Citations loaded:', citations);
-        
         if (citations && citations.length > 0) {
-            console.log('✅ Loaded citations for modal:', citations.length);
-            // Store in both global and local variables for use in modal
-            window.allCitations = citations;
-            allCitations = citations;
+            // Normalize all existing domains from campaignData
+            const existingDomains = new Set((citationsData || []).map(c => normalizeDomain(c.site)));
+            // Filter out citations whose normalized domain is already present
+            const filteredCitations = citations.filter(c => !existingDomains.has(normalizeDomain(c.citation)));
+            console.log('✅ Filtered citations for modal:', filteredCitations.length);
+            window.allCitations = filteredCitations;
+            allCitations = filteredCitations;
         } else {
             console.log('❌ No citations loaded for modal');
             window.allCitations = [];
@@ -1106,50 +1105,12 @@ async function openAddCitationModal() {
         console.log('🎛️ Set enabled filter to "all"');
     }
     
-    if (searchFilter) {
-        searchFilter.value = '';
-        console.log('🔍 Set search filter to empty');
-    }
-    
-    // Apply initial filters
-    console.log('🔧 Applying initial filters...');
-    applyFilters();
-    
-    // Add event listeners for filters (after modal is created)
-    const typeFilterEl = document.getElementById('type-filter');
-    const enabledFilterEl = document.getElementById('enabled-filter');
-    const searchFilterEl = document.getElementById('search-filter');
-    
-    if (typeFilterEl) {
-        console.log('🎛️ Type filter event listener added');
-        typeFilterEl.addEventListener('change', (e) => {
-            console.log('🎛️ Type filter changed to:', e.target.value);
-            applyFilters();
-        });
-    }
-    
-    if (enabledFilterEl) {
-        console.log('🎛️ Enabled filter event listener added');
-        enabledFilterEl.addEventListener('change', (e) => {
-            console.log('🎛️ Enabled filter changed to:', e.target.value);
-            applyFilters();
-        });
-    }
-    
-    if (searchFilterEl) {
-        console.log('🔍 Search filter event listener added');
-        searchFilterEl.addEventListener('input', (e) => {
-            console.log('🔍 Search filter changed to:', e.target.value);
-            applyFilters();
-        });
-    }
-    
-    // Show modal
-    console.log('👁️ Showing modal...');
+    // Show the modal
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
     
-    console.log('✅ Modal should now be visible');
+    // Initial filter and render
+    applyFilters();
 }
 
 // Close modal
@@ -1179,18 +1140,17 @@ function addSelectedCitations() {
     // Use the correct allCitations reference
     const citationsToUse = window.allCitations || allCitations || [];
     
-    // Add new citations
+    // Add new citations with correct structure matching campaign-data.js
     const newCitations = selectedCitationsArray.map(citationName => {
         const citationData = citationsToUse.find(c => c.citation === citationName);
         return {
             site: citationData.citation,
-            action: 'Add Listing',
+            action: 'Replacement', // Changed from 'Add Listing' to 'Replacement'
             url: citationData['listing url'],
             status: 'To do',
-            type: citationData.type,
-            domainAuthority: citationData['domain authority'],
-            country: citationData.country,
-            location: citationData.location
+            notes: '',
+            mainCategory: '',
+            subCategory: ''
         };
     });
     
@@ -1199,7 +1159,14 @@ function addSelectedCitations() {
     
     // Update the global citationsData and save to Firestore
     citationsData = updatedCitations;
-    updateCitationsData();
+    
+    // Save to Firestore and refresh the table
+    updateCitationsData(() => {
+        // Refresh the table with updated data
+        populateTableWithCitationsData(citationsData);
+        updateSummaryCards(citationsData);
+        showNotification(`Added ${newCitations.length} new citations!`, 'success');
+    });
     
     // Close the modal after adding citations
     closeAddCitationModal();
@@ -1253,7 +1220,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function deleteCitation(site, url) {
     try {
         // Filter out the citation to delete from the global citationsData
-        const filteredCitations = citationsData.filter(c => !(c.site === site && c.url === url && c.action === 'Add Listing'));
+        const filteredCitations = citationsData.filter(c => !(c.site === site && c.url === url && c.action === 'Replacement'));
         
         // Update the global citationsData and save to Firestore
         citationsData = filteredCitations;

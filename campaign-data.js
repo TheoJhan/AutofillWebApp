@@ -601,8 +601,39 @@ function populateForm(dataObject) {
         if (inputElement) {
             if (inputElement.tagName.toLowerCase() === "textarea") {
                 inputElement.value = dataObject[id].replace(/\n/g, "\r\n"); // Ensure newlines render properly
+            } else if (inputElement.type === "checkbox") {
+                inputElement.checked = dataObject[id] || false;
+            } else if (inputElement.type === "radio") {
+                // Handle radio buttons (address mode)
+                if (id === "addressMode") {
+                    const radioButton = document.getElementById(dataObject[id]);
+                    if (radioButton) {
+                        radioButton.checked = true;
+                    }
+                }
             } else {
                 inputElement.value = dataObject[id];
+            }
+        }
+    });
+    
+    // Handle alternative data mappings
+    const alternativeMappings = {
+        'firstnameAlternative': { checkboxId: 'contactFirstNameAlt', inputId: 'contactFirstNameBox' },
+        'lastnameAlternative': { checkboxId: 'contactLastNameAlt', inputId: 'contactLastNameBox' },
+        'logoBoxAlternative': { checkboxId: 'logoAlt', inputId: 'logoBox' },
+        'image1Alternative': { checkboxId: 'image1Alt', inputId: 'image1Box' }
+    };
+    
+    Object.keys(alternativeMappings).forEach(firebaseField => {
+        if (dataObject[firebaseField] !== undefined && dataObject[firebaseField] !== '') {
+            const mapping = alternativeMappings[firebaseField];
+            const checkboxElement = document.getElementById(mapping.checkboxId);
+            const inputElement = document.getElementById(mapping.inputId);
+            
+            if (checkboxElement && inputElement) {
+                checkboxElement.checked = true;
+                inputElement.value = dataObject[firebaseField];
             }
         }
     });
@@ -1084,9 +1115,19 @@ function getCampaignFormData() {
     const businessHours = document.getElementById('businessHoursBox')?.value || '';
     const parsedHours = parseBusinessHours(businessHours);
 
+    // Get address mode
+    const addressMode = document.querySelector('input[name="address-mode"]:checked')?.id || 'show-address';
+
+    // Get alternative checkbox states and values
+    const contactFirstNameAlt = document.getElementById('contactFirstNameAlt')?.checked || false;
+    const contactLastNameAlt = document.getElementById('contactLastNameAlt')?.checked || false;
+    const logoAlt = document.getElementById('logoAlt')?.checked || false;
+    const image1Alt = document.getElementById('image1Alt')?.checked || false;
+
     // Debug logging for business hours parsing
     console.log('🔍 Business Hours Input:', businessHours);
     console.log('📊 Parsed Hours:', parsedHours);
+    console.log('📍 Address Mode:', addressMode);
 
     const formData = {
         idBox: document.getElementById('idBox')?.value || '',
@@ -1105,6 +1146,7 @@ function getCampaignFormData() {
         zipcode: document.getElementById('zipcode')?.value || '',
         country: fullCountry,
         countryAbbr: countryAbbr,
+        addressMode: addressMode,
         contactFirstNameBox: document.getElementById('contactFirstNameBox')?.value || '',
         contactLastNameBox: document.getElementById('contactLastNameBox')?.value || '',
         contactEmailBox: document.getElementById('contactEmailBox')?.value || '',
@@ -1137,6 +1179,20 @@ function getCampaignFormData() {
         longBox: document.getElementById('longBox')?.value || '',
         siBox: document.getElementById('siBox')?.value || ''
     };
+
+    // Add alternative data if checkboxes are checked
+    if (contactFirstNameAlt) {
+        formData.firstnameAlternative = document.getElementById('contactFirstNameBox')?.value || '';
+    }
+    if (contactLastNameAlt) {
+        formData.lastnameAlternative = document.getElementById('contactLastNameBox')?.value || '';
+    }
+    if (logoAlt) {
+        formData.logoBoxAlternative = document.getElementById('logoBox')?.value || '';
+    }
+    if (image1Alt) {
+        formData.image1Alternative = document.getElementById('image1Box')?.value || '';
+    }
 
     // Add parsed business hours to form data
     const finalData = { ...formData, ...parsedHours };
@@ -1191,11 +1247,134 @@ async function getFileInputsAsBase64() {
     return base64Data;
 }
 
+// Function to show confirmation modal for required fields
+function showRequiredFieldModal(fieldName, fieldId, checkboxId) {
+    return new Promise((resolve) => {
+        let modal = document.getElementById('required-field-modal');
+        if (!modal) {
+            modal = document.createElement('div');
+            modal.id = 'required-field-modal';
+            modal.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                background: rgba(0,0,0,0.5);
+                z-index: 10000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            `;
+            modal.innerHTML = `
+                <div style="background: white; padding: 2rem; border-radius: 12px; max-width: 500px; width: 90%; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+                    <h3 style="margin: 0 0 1rem; color: #dc3545;">⚠️ Required Field Missing</h3>
+                    <p style="margin-bottom: 1.5rem; color: #666;">
+                        The <strong>${fieldName}</strong> field is required but currently empty. 
+                        Please either:
+                    </p>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                            <input type="checkbox" id="modal-checkbox" style="margin: 0;">
+                            <span>Mark as Alternative (provide alternative data)</span>
+                        </label>
+                        <input type="text" id="modal-input" placeholder="Enter alternative ${fieldName}" style="width: 100%; padding: 0.5rem; margin-top: 0.5rem; border: 1px solid #ddd; border-radius: 4px;">
+                    </div>
+                    <div style="display: flex; gap: 1rem; justify-content: flex-end;">
+                        <button id="modal-cancel" style="padding: 0.5rem 1rem; border: 1px solid #ddd; background: white; border-radius: 4px; cursor: pointer;">Cancel</button>
+                        <button id="modal-confirm" style="padding: 0.5rem 1rem; background: #dc3545; color: white; border: none; border-radius: 4px; cursor: pointer;">Confirm</button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+        
+        modal.style.display = 'flex';
+        
+        const checkbox = modal.querySelector('#modal-checkbox');
+        const input = modal.querySelector('#modal-input');
+        const confirmBtn = modal.querySelector('#modal-confirm');
+        const cancelBtn = modal.querySelector('#modal-cancel');
+        
+        // Reset modal state
+        checkbox.checked = false;
+        input.value = '';
+        input.disabled = true;
+        
+        checkbox.addEventListener('change', () => {
+            input.disabled = !checkbox.checked;
+            if (checkbox.checked) {
+                input.focus();
+            }
+        });
+        
+        confirmBtn.addEventListener('click', () => {
+            if (checkbox.checked && input.value.trim()) {
+                // Set the alternative checkbox and value
+                const actualCheckbox = document.getElementById(checkboxId);
+                const actualInput = document.getElementById(fieldId);
+                if (actualCheckbox && actualInput) {
+                    actualCheckbox.checked = true;
+                    actualInput.value = input.value.trim();
+                }
+                modal.style.display = 'none';
+                resolve(true);
+            } else if (!checkbox.checked) {
+                modal.style.display = 'none';
+                resolve(false);
+            } else {
+                alert('Please enter alternative data when marking as alternative.');
+            }
+        });
+        
+        cancelBtn.addEventListener('click', () => {
+            modal.style.display = 'none';
+            resolve(false);
+        });
+    });
+}
+
+// Function to validate required fields
+async function validateRequiredFields() {
+    const requiredFields = [
+        { name: 'Contact First Name', fieldId: 'contactFirstNameBox', checkboxId: 'contactFirstNameAlt' },
+        { name: 'Contact Last Name', fieldId: 'contactLastNameBox', checkboxId: 'contactLastNameAlt' },
+        { name: 'Campaign Logo', fieldId: 'logoBox', checkboxId: 'logoAlt' },
+        { name: 'Image 1/Banner', fieldId: 'image1Box', checkboxId: 'image1Alt' }
+    ];
+    
+    for (const field of requiredFields) {
+        const input = document.getElementById(field.fieldId);
+        const checkbox = document.getElementById(field.checkboxId);
+        
+        if (input && checkbox) {
+            const isEmpty = input.type === 'file' ? !input.files || input.files.length === 0 : !input.value.trim();
+            const isAlternative = checkbox.checked;
+            
+            if (isEmpty && !isAlternative) {
+                const shouldContinue = await showRequiredFieldModal(field.name, field.fieldId, field.checkboxId);
+                if (!shouldContinue) {
+                    return false; // User cancelled
+                }
+            }
+        }
+    }
+    
+    return true; // All validations passed
+}
+
 // Save campaign data to Firestore with create/update logic
 async function saveCampaignDataToFirestore() {
     const user = auth.currentUser;
     if (!user || !user.uid) {
         showNotification('User not authenticated. Please log in.', 'error');
+        return;
+    }
+    
+    // Validate required fields first
+    const validationPassed = await validateRequiredFields();
+    if (!validationPassed) {
+        showNotification('Save cancelled due to missing required fields.', 'error');
         return;
     }
     
@@ -1269,9 +1448,41 @@ async function loadCampaignDataFromFirestore() {
                 Object.keys(formData).forEach(fieldId => {
                     const element = document.getElementById(fieldId);
                     if (element && formData[fieldId] !== undefined) {
-                        element.value = formData[fieldId] || "";
+                        if (element.type === "checkbox") {
+                            element.checked = formData[fieldId] || false;
+                        } else if (fieldId === "addressMode") {
+                            // Handle address mode radio button
+                            const radioButton = document.getElementById(formData[fieldId]);
+                            if (radioButton) {
+                                radioButton.checked = true;
+                            }
+                        } else {
+                            element.value = formData[fieldId] || "";
+                        }
                     }
                 });
+                
+                // Handle alternative data mappings
+                const alternativeMappings = {
+                    'firstnameAlternative': { checkboxId: 'contactFirstNameAlt', inputId: 'contactFirstNameBox' },
+                    'lastnameAlternative': { checkboxId: 'contactLastNameAlt', inputId: 'contactLastNameBox' },
+                    'logoBoxAlternative': { checkboxId: 'logoAlt', inputId: 'logoBox' },
+                    'image1Alternative': { checkboxId: 'image1Alt', inputId: 'image1Box' }
+                };
+                
+                Object.keys(alternativeMappings).forEach(firebaseField => {
+                    if (formData[firebaseField] !== undefined && formData[firebaseField] !== '') {
+                        const mapping = alternativeMappings[firebaseField];
+                        const checkboxElement = document.getElementById(mapping.checkboxId);
+                        const inputElement = document.getElementById(mapping.inputId);
+                        
+                        if (checkboxElement && inputElement) {
+                            checkboxElement.checked = true;
+                            inputElement.value = formData[firebaseField];
+                        }
+                    }
+                });
+                
                 console.log('✅ Form data loaded from Firestore');
             }
             

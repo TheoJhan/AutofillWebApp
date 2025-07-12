@@ -27,7 +27,7 @@ function updateTheme(theme) {
 // Firebase imports and configuration
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
 import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
-import { getFirestore, collection, addDoc, serverTimestamp, onSnapshot, doc, updateDoc, query, where, orderBy, getDocs } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js";
+import { getFirestore, collection, addDoc, serverTimestamp, onSnapshot, doc, updateDoc, query, where, orderBy, getDocs, setDoc } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBZwNTgvurQB2XZTdG0hXEhH9nhHEsSyiY",
@@ -483,7 +483,7 @@ function updateCurrentPlanUI(planData) {
             if (planData.citations === 'unlimited') {
                 progressBar.style.width = '100%';
             } else {
-                const totalCitations = planData.citations || 100;
+                const totalCitations = planData.citations || 1000;
                 const usedCitations = planData.citationsUsed || 0;
                 
                 if (totalCitations > 0) {
@@ -603,19 +603,242 @@ function updatePlanCardsUI(currentPlan) {
     });
 }
 
-// Enhanced choosePlan function with better status handling
+// --- Cart and Checkout Logic ---
+let selectedPlans = [];
+
+function getPlanOptions() {
+    return [
+        {
+            key: 'starter',
+            name: 'Starter',
+            price: 40,
+            citations: 1000
+        },
+        {
+            key: 'professional',
+            name: 'Professional',
+            price: 50,
+            citations: 1700
+        },
+        {
+            key: 'business',
+            name: 'Business',
+            price: 100,
+            citations: 3000
+        },
+        {
+            key: 'enterprise',
+            name: 'Enterprise',
+            price: 250,
+            citations: 'unlimited'
+        }
+    ];
+}
+
+function updateCartUI() {
+    const cartCount = document.getElementById('cart-count');
+    const cartSummary = document.getElementById('cart-summary');
+    let total = 0;
+    selectedPlans.forEach(p => {
+        if (typeof p.price === 'number') total += p.price;
+    });
+    cartCount.textContent = selectedPlans.length;
+    cartSummary.textContent = `$${total.toFixed(2)}`;
+}
+
+// --- Billing History Logic ---
+async function saveBillingHistory(userId, userEmail, plans, status, approved, totalPrice) {
+    try {
+        await addDoc(collection(db, 'subscribers_billing'), {
+            userId,
+            userEmail,
+            plans,
+            status,
+            approved,
+            totalPrice,
+            createdAt: serverTimestamp()
+        });
+    } catch (e) {
+        console.error('Failed to save billing history:', e);
+    }
+}
+
+async function fetchBillingHistory(userId) {
+    const q = collection(db, 'subscribers_billing');
+    const snapshot = await getDocs(q);
+    // Filter by userId
+    return snapshot.docs
+        .map(doc => ({ id: doc.id, ...doc.data() }))
+        .filter(item => item.userId === userId)
+        .sort((a, b) => b.createdAt?.seconds - a.createdAt?.seconds);
+}
+
+function renderBillingHistoryTable(history) {
+    const tbody = document.getElementById('billing-history-table');
+    const totalTransactionsEl = document.getElementById('total-transactions');
+    const totalSpentEl = document.getElementById('total-spent');
+    
+    tbody.innerHTML = '';
+    
+    if (!history.length) {
+        tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:#888;padding:2rem;">No billing history found.</td></tr>';
+        totalTransactionsEl.textContent = '0';
+        totalSpentEl.textContent = '$0.00';
+        return;
+    }
+    
+    let totalSpent = 0;
+    
+    history.forEach(item => {
+        const date = item.createdAt?.toDate ? item.createdAt.toDate().toLocaleDateString() : (item.createdAt ? new Date(item.createdAt.seconds * 1000).toLocaleDateString() : '');
+        const plans = Array.isArray(item.plans) ? item.plans.join(', ') : item.plans;
+        const totalPayment = item.totalPrice ? `$${parseFloat(item.totalPrice).toFixed(2)}` : '$0.00';
+        const status = item.status || 'pending';
+        const approved = item.approved ? 'Yes' : 'No';
+        
+        // Add to total spent
+        if (item.totalPrice) {
+            totalSpent += parseFloat(item.totalPrice);
+        }
+        
+        const tr = document.createElement('tr');
+        tr.className = 'billing-history-row';
+        
+        // Create status badge
+        const statusBadge = `<span class="status-badge status-${status.toLowerCase()}">${status}</span>`;
+        const approvedBadge = `<span class="approved-badge ${approved === 'Yes' ? 'approved' : 'pending'}">${approved}</span>`;
+        
+        tr.innerHTML = `
+            <td class="date-cell">${date}</td>
+            <td class="plans-cell">${plans}</td>
+            <td class="payment-cell">${totalPayment}</td>
+            <td class="status-cell">${statusBadge}</td>
+            <td class="approved-cell">${approvedBadge}</td>
+        `;
+        tbody.appendChild(tr);
+    });
+    
+    // Update stats
+    totalTransactionsEl.textContent = history.length;
+    totalSpentEl.textContent = `$${totalSpent.toFixed(2)}`;
+}
+
+// Tab switching logic
+function setupPlanTabs() {
+    const availableTab = document.getElementById('available-plans-tab');
+    const billingTab = document.getElementById('billing-history-tab');
+    const planCardsSection = document.getElementById('plan-cards-section');
+    const billingSection = document.getElementById('billing-history-section');
+    availableTab.addEventListener('click', () => {
+        availableTab.classList.add('active');
+        billingTab.classList.remove('active');
+        planCardsSection.style.display = '';
+        billingSection.style.display = 'none';
+    });
+    billingTab.addEventListener('click', async () => {
+        availableTab.classList.remove('active');
+        billingTab.classList.add('active');
+        planCardsSection.style.display = 'none';
+        billingSection.style.display = '';
+        if (currentUser) {
+            const history = await fetchBillingHistory(currentUser.uid);
+            renderBillingHistoryTable(history);
+        }
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    setupPlanTabs();
+});
+
+// --- Update checkout panel to allow deleting plans ---
+function updateCheckoutPanel() {
+    const checkoutPanel = document.getElementById('checkout-panel');
+    const checkoutList = document.getElementById('checkout-list');
+    const totalCitations = document.getElementById('checkout-total-citations');
+    const totalPayment = document.getElementById('checkout-total-payment');
+    checkoutList.innerHTML = '';
+    let totalCite = 0;
+    let totalPay = 0;
+    selectedPlans.forEach((plan, idx) => {
+        const item = document.createElement('div');
+        item.className = 'checkout-plan-item';
+        item.innerHTML = `<span class="checkout-plan-title">${plan.name}</span><span class="checkout-plan-price">$${plan.price}</span><button class="remove-plan-btn" data-idx="${idx}" style="margin-left:1rem;background:none;border:none;color:#e74c3c;font-size:1.2rem;cursor:pointer;">&times;</button>`;
+        checkoutList.appendChild(item);
+    });
+    // Remove plan logic
+    checkoutList.querySelectorAll('.remove-plan-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const idx = parseInt(this.getAttribute('data-idx'));
+            selectedPlans.splice(idx, 1);
+            updateCartUI();
+            updateCheckoutPanel();
+        });
+    });
+    selectedPlans.forEach(plan => {
+        if (plan.citations === 'unlimited') {
+            totalCite = '∞';
+        } else if (totalCite !== '∞') {
+            totalCite += plan.citations;
+        }
+        if (typeof plan.price === 'number') totalPay += plan.price;
+    });
+    totalCitations.textContent = totalCite;
+    totalPayment.textContent = `$${totalPay.toFixed(2)}`;
+}
+
+// --- Confirmation modal for plan selection ---
+function showPlanConfirmModal(plan, onConfirm, mode) {
+    let modal = document.getElementById('plan-confirm-modal');
+    if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'plan-confirm-modal';
+        modal.style.position = 'fixed';
+        modal.style.top = 0;
+        modal.style.left = 0;
+        modal.style.width = '100vw';
+        modal.style.height = '100vh';
+        modal.style.background = 'rgba(0,0,0,0.3)';
+        modal.style.zIndex = 9999;
+        modal.style.display = 'flex';
+        modal.style.justifyContent = 'center';
+        modal.style.alignItems = 'center';
+        modal.innerHTML = `<div style="background:#fff;padding:2rem 2.5rem;border-radius:12px;box-shadow:0 4px 24px rgba(0,0,0,0.12);text-align:center;max-width:90vw;">
+            <h3 style="margin-bottom:1.2rem;">Confirm Plan Selection</h3>
+            <div id="plan-confirm-msg"></div>
+            <div style="margin-top:2rem;display:flex;gap:1.5rem;justify-content:center;">
+                <button id="plan-confirm-yes" style="background:#4A4DE6;color:#fff;padding:0.7rem 2rem;border:none;border-radius:8px;font-size:1rem;cursor:pointer;">Confirm</button>
+                <button id="plan-confirm-no" style="background:#eee;color:#222;padding:0.7rem 2rem;border:none;border-radius:8px;font-size:1rem;cursor:pointer;">Cancel</button>
+            </div>
+        </div>`;
+        document.body.appendChild(modal);
+    }
+    if (mode === 'add-to-cart') {
+        document.getElementById('plan-confirm-msg').innerHTML = `Are you sure you want to add the <b>${plan.name}</b> plan to your cart?`;
+    } else {
+        document.getElementById('plan-confirm-msg').innerHTML = `Are you sure you want to request the <b>${plan.name}</b> plan for <b>$${plan.price}/month</b>? This request will be sent to the admin for approval.`;
+    }
+    modal.style.display = 'flex';
+    document.getElementById('plan-confirm-yes').onclick = () => {
+        modal.style.display = 'none';
+        onConfirm();
+    };
+    document.getElementById('plan-confirm-no').onclick = () => {
+        modal.style.display = 'none';
+    };
+}
+
+// --- Enhanced choosePlan function ---
 async function choosePlan(planKey) {
     if (!isAuthenticated || !currentUser) {
         alert('Please log in to choose a plan.');
         return;
     }
-    
     const plan = PLAN_OPTIONS[planKey];
     if (!plan) {
         alert('Invalid plan selection.');
         return;
     }
-    
     // Check if user already has a pending plan
     try {
         const q = query(
@@ -624,7 +847,6 @@ async function choosePlan(planKey) {
             where('status', '==', 'pending')
         );
         const pendingSnapshot = await getDocs(q);
-        
         if (!pendingSnapshot.empty) {
             alert('You already have a pending plan request. Please wait for admin approval.');
             return;
@@ -632,16 +854,12 @@ async function choosePlan(planKey) {
     } catch (error) {
         console.error('Error checking pending plans:', error);
     }
-    
-    // Confirmation dialog
-    const confirmed = confirm(`Are you sure you want to request the ${plan.name} plan for $${plan.price}/month? This request will be sent to the admin for approval.`);
-    if (!confirmed) return;
-    
+    // Show confirmation modal instead of confirm()
+    showPlanConfirmModal(plan, async () => {
     try {
         const startDate = new Date();
         const endDate = new Date();
         endDate.setMonth(endDate.getMonth() + 1);
-        
         await addDoc(collection(db, 'plan_subscribers'), {
             userId: currentUser.uid,
             userEmail: currentUser.email,
@@ -655,14 +873,94 @@ async function choosePlan(planKey) {
             createdAt: serverTimestamp(),
             status: 'pending'
         });
-        
+            // Save to billing history (unapproved by default)
+            await saveBillingHistory(currentUser.uid, currentUser.email, [plan.name], 'pending', false, plan.price);
         alert(`Your plan request for the ${plan.name} plan has been submitted and is pending admin approval. You will be notified when it is activated.`);
-        
-        // Refresh the plan display
         await fetchCurrentUserPlan();
-        
     } catch (error) {
         console.error('Error saving plan subscription:', error);
         alert('Failed to submit plan request. Please try again.');
     }
-} 
+    });
+}
+
+// --- Update checkout logic to save billing history with total price ---
+document.addEventListener('DOMContentLoaded', () => {
+    // Plan card selection logic
+    const planCards = document.querySelectorAll('.plan-card');
+    const planOptions = getPlanOptions();
+    planCards.forEach((card, idx) => {
+        card.style.cursor = 'pointer';
+        card.addEventListener('click', function() {
+            const plan = planOptions[idx];
+            const already = selectedPlans.find(p => p.key === plan.key);
+            if (already) {
+                selectedPlans = selectedPlans.filter(p => p.key !== plan.key);
+                card.classList.remove('selected');
+                updateCartUI();
+                updateCheckoutPanel();
+            } else {
+                // Show confirmation modal before adding to cart
+                showPlanConfirmModal(plan, () => {
+                    selectedPlans.push(plan);
+                    card.classList.add('selected');
+                    updateCartUI();
+                    updateCheckoutPanel();
+                }, 'add-to-cart');
+            }
+        });
+    });
+    updateCartUI();
+
+    // Cart button logic
+    document.getElementById('cart-btn').addEventListener('click', function() {
+        document.getElementById('checkout-panel').style.display = 'block';
+        document.getElementById('checkout-panel').classList.add('open');
+        updateCheckoutPanel();
+    });
+    document.getElementById('close-checkout').addEventListener('click', function() {
+        document.getElementById('checkout-panel').style.display = 'none';
+        document.getElementById('checkout-panel').classList.remove('open');
+    });
+    // Confirm checkout logic
+    document.getElementById('confirm-checkout').addEventListener('click', async function() {
+        if (!currentUser) {
+            alert('Please log in to confirm checkout.');
+            return;
+        }
+        if (selectedPlans.length === 0) {
+            alert('No plans selected.');
+            return;
+        }
+        let totalCite = 0;
+        let totalPay = 0;
+        let hasUnlimited = false;
+        selectedPlans.forEach(plan => {
+            if (plan.citations === 'unlimited') hasUnlimited = true;
+            else if (!hasUnlimited) totalCite += plan.citations;
+            if (typeof plan.price === 'number') totalPay += plan.price;
+        });
+        const docData = {
+            userId: currentUser.uid,
+            userEmail: currentUser.email,
+            plans: selectedPlans.map(p => p.name),
+            totalCitations: hasUnlimited ? 'unlimited' : totalCite,
+            totalPayment: totalPay,
+            createdAt: new Date(),
+            status: 'pending'
+        };
+        try {
+            await setDoc(doc(db, 'plan_subscribers', currentUser.uid), docData);
+            // Save to billing history (unapproved by default)
+            await saveBillingHistory(currentUser.uid, currentUser.email, selectedPlans.map(p => p.name), 'pending', false, totalPay);
+            alert('Checkout successful! Your plans are now pending approval.');
+            selectedPlans = [];
+            planCards.forEach(card => card.classList.remove('selected'));
+            updateCartUI();
+            document.getElementById('checkout-panel').style.display = 'none';
+            document.getElementById('checkout-panel').classList.remove('open');
+        } catch (e) {
+            alert('Failed to save your plans. Please try again.');
+        }
+    });
+}); 

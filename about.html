@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CB-PHAA - About Us</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #e7f3ff 100%);
+            margin: 0;
+            color: #222;
+        }
+        .landing-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem 4vw 1.5rem 4vw;
+            background: #fff;
+        }
+        .landing-nav .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            font-size: 1.1rem;
+        }
+        .landing-nav .nav-links a {
+            color: #222;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .landing-nav .nav-links a.active, .landing-nav .nav-links a:hover {
+            color: #4A4DE6;
+        }
+        .landing-nav .nav-actions {
+            display: flex;
+            gap: 1rem;
+        }
+        .landing-nav .btn-signin {
+            background: #fff;
+            border: 2px solid #4A4DE6;
+            color: #222;
+            border-radius: 8px;
+            padding: 0.5rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s;
+        }
+        .landing-nav .btn-signin:hover {
+            background: #f3f6ff;
+            color: #4A4DE6;
+        }
+        .landing-nav .btn-signup {
+            background: #4A4DE6;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 0.5rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .landing-nav .btn-signup:hover {
+            background: #2e3192;
+        }
+        .about-hero {
+            background: linear-gradient(90deg, #e7f3ff 0%, #e6f4ea 100%);
+            padding: 3rem 4vw 2rem 4vw;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 0 0 32px 32px;
+            box-shadow: 0 4px 24px rgba(74,77,230,0.04);
+        }
+        .about-hero-content {
+            max-width: 700px;
+        }
+        .about-hero-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.2rem;
+            color: #222;
+        }
+        .about-hero-desc {
+            font-size: 1.2rem;
+            color: #4A4DE6;
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+        .about-section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 4vw 4rem 4vw;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 2px solid #e6f4ea;
+            animation: fadeIn 1.2s cubic-bezier(.4,0,.2,1);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: none; }
+        }
+        .about-block {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(74,77,230,0.04), 0 1.5px 8px rgba(74,77,230,0.03);
+            margin-bottom: 2.5rem;
+            padding: 2.2rem 2rem 2rem 2rem;
+            transition: box-shadow 0.2s, transform 0.2s;
+            border: none;
+        }
+        .about-block:hover {
+            box-shadow: 0 8px 32px rgba(74,77,230,0.10), 0 2px 12px rgba(74,77,230,0.06);
+            transform: translateY(-4px) scale(1.02);
+            background: linear-gradient(90deg, #e7f3ff 0%, #e6f4ea 100%);
+        }
+        .about-block .about-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #222;
+        }
+        .about-block .about-desc {
+            font-size: 1.05rem;
+            color: #444;
+            margin-bottom: 0.5rem;
+        }
+        .about-block .about-highlight {
+            color: #388e3c;
+            font-weight: 500;
+            margin-top: 0.5rem;
+        }
+        .about-mission {
+            background: #e6f4ea;
+            border-radius: 8px;
+            padding: 1.5rem 2rem;
+            margin: 2rem 0;
+            font-size: 1.15rem;
+            color: #388e3c;
+            font-weight: 500;
+            box-shadow: 0 2px 8px rgba(56,142,60,0.06);
+        }
+        .about-beliefs {
+            margin-top: 2rem;
+            padding-left: 1.5rem;
+        }
+        .about-beliefs li {
+            font-size: 1.08rem;
+            margin-bottom: 0.5rem;
+        }
+        @media (max-width: 900px) {
+            .about-hero {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .about-section {
+                padding: 2rem 2vw 3rem 2vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="landing-nav">
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html" class="active">About Us</a>
+        </div>
+        <div class="nav-actions">
+            <button class="btn-signin" onclick="window.location.href='login.html'">Sign In</button>
+            <button class="btn-signup" onclick="window.location.href='signup.html'">Sign Up</button>
+        </div>
+    </nav>
+    <section class="about-hero">
+        <div class="about-hero-content">
+            <div class="about-hero-title">🧾 About Us</div>
+            <div class="about-hero-desc">Built from Frustration. Designed for Freedom.<br>We didn’t start with investors, a flashy office, or a big marketing team.<br><br>We started with a problem.</div>
+        </div>
+    </section>
+    <section class="about-section">
+        <div class="about-block">
+            <div class="about-title">Our Story</div>
+            <div class="about-desc">As professionals who’ve worked closely with small businesses, marketers, and SEO teams, we experienced first-hand how painfully repetitive and time-consuming citation building could be. Creating dozens—even hundreds—of business listings manually. Copy-pasting the same data. Fixing typos. Tracking inconsistencies. And doing it all over again for the next client.<br><br>It wasn’t just tedious—it was holding businesses back.</div>
+            <div class="about-highlight">We asked ourselves:<br>"What if we could automate this?"<br>"What if listing a business across the web could be as easy as clicking a button?"</div>
+        </div>
+        <div class="about-block">
+            <div class="about-title">Why This Project Exists</div>
+            <div class="about-desc">That’s why this project was born.<br><br><b>Our Mission:</b> To make business listing automation accessible, accurate, and scalable—for everyone.<br><br>Whether you're a solo entrepreneur, a local agency, or part of an SEO team managing 50+ clients, you shouldn’t have to waste hours on something that should have been automated years ago.<br><br>Our tool is built to remove the friction, eliminate redundancy, and give you back your time—so you can focus on growing the business, not chasing citation forms.</div>
+        </div>
+        <div class="about-mission">
+            <b>We Believe In:</b>
+            <ul class="about-beliefs">
+                <li>Efficiency without complexity</li>
+                <li>Consistency across every listing</li>
+                <li>Empowering local businesses to be discovered online</li>
+            </ul>
+        </div>
+        <div class="about-block">
+            <div class="about-title">Our Promise</div>
+            <div class="about-desc">This isn’t just software.<br>It’s our way of fixing something broken, and giving businesses the edge they deserve in the digital world.<br><br><b>And we’re just getting started.</b></div>
+        </div>
+    </section>
+</body>
+</html> 

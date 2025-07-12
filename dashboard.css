@@ -1447,3 +1447,37 @@ input:checked + .slider:before { transform: translateX(20px); }
     border-radius: 6px;
     transition: width 0.4s cubic-bezier(.4,2,.6,1);
 } 
+
+.hero-banner-img {
+  display: block;
+  max-width: 100%;
+  width: 80vw;
+  max-height: 60vh;
+  margin: 0 auto;
+  object-fit: contain;
+} 
+
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.password-wrapper input[type="password"],
+.password-wrapper input[type="text"] {
+  width: 100%;
+  padding-right: 2.5rem;
+}
+.password-toggle-btn {
+  position: absolute;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.password-toggle-btn svg {
+  color: #888;
+} 

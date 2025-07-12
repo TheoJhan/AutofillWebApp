@@ -24,6 +24,30 @@ const signupSpinner = document.getElementById('signupSpinner');
 const errorMessage = document.getElementById('errorMessage');
 const successMessage = document.getElementById('successMessage');
 
+// Password visibility toggles
+const passwordInput = document.getElementById('password');
+const togglePasswordBtn = document.getElementById('togglePassword');
+const eyeIcon = document.getElementById('eyeIcon');
+
+const confirmPasswordInput = document.getElementById('confirmPassword');
+const toggleConfirmPasswordBtn = document.getElementById('toggleConfirmPassword');
+const eyeIconConfirm = document.getElementById('eyeIconConfirm');
+
+if (togglePasswordBtn) {
+  togglePasswordBtn.addEventListener('click', function () {
+    const isPassword = passwordInput.type === 'password';
+    passwordInput.type = isPassword ? 'text' : 'password';
+    eyeIcon.setAttribute('opacity', isPassword ? '0.5' : '1');
+  });
+}
+if (toggleConfirmPasswordBtn) {
+  toggleConfirmPasswordBtn.addEventListener('click', function () {
+    const isPassword = confirmPasswordInput.type === 'password';
+    confirmPasswordInput.type = isPassword ? 'text' : 'password';
+    eyeIconConfirm.setAttribute('opacity', isPassword ? '0.5' : '1');
+  });
+}
+
 signupForm.addEventListener('submit', async (e) => {
   e.preventDefault();
   errorMessage.textContent = '';

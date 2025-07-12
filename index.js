@@ -97,13 +97,13 @@ async function checkAuthStatus() {
             localStorage.removeItem('sessionExpiry');
             window.location.href = 'login.html';
         } else {
-            // No authenticated user, redirect to login
-            window.location.href = 'login.html';
+            // No authenticated user, redirect to landing page
+            window.location.href = 'home.html';
         }
     } catch (error) {
         console.error('Error checking auth status:', error);
-        // On error, redirect to login
-        window.location.href = 'login.html';
+        // On error, redirect to landing page
+        window.location.href = 'home.html';
     }
 }
 

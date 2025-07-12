@@ -190,6 +190,20 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Password visibility toggle
+const passwordInput = document.getElementById('password');
+const togglePasswordBtn = document.getElementById('togglePassword');
+const eyeIcon = document.getElementById('eyeIcon');
+
+if (togglePasswordBtn) {
+  togglePasswordBtn.addEventListener('click', function () {
+    const isPassword = passwordInput.type === 'password';
+    passwordInput.type = isPassword ? 'text' : 'password';
+    // Optionally, you can swap the SVG icon here for an "eye-off"
+    eyeIcon.setAttribute('opacity', isPassword ? '0.5' : '1');
+  });
+}
+
 // Notify extension about successful login
 async function notifyExtensionLogin(user) {
     try {
